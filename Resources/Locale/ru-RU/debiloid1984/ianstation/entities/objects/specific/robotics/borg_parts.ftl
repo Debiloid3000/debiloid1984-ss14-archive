@@ -1,0 +1,12 @@
+ent-LeftArmBorgSB = левая рука киборга-офицера
+    .desc = { ent-BaseBorgArmLeft.desc }
+ent-RightArmBorgSB = правая рука киборга-офицера
+    .desc = { ent-BaseBorgArmRight.desc }
+ent-LeftLegBorgSB = левая нога киборга-офицера
+    .desc = { ent-BaseBorgLegLeft.desc }
+ent-RightLegBorgSB = правая нога киборга-офицера
+    .desc = { ent-BaseBorgLegRight.desc }
+ent-HeadBorgSB = голова киборга-офицера
+    .desc = { ent-BaseBorgHead.desc }
+ent-TorsoBorgSB = туловище киборга-офицера
+    .desc = { ent-BaseBorgTorso.desc }

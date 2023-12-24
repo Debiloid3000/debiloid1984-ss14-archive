@@ -1,0 +1,49 @@
+- type: entity
+  id: LockerComSalvageFilled
+  suffix: Filled, Hardsuit
+  parent: LockerComSalvage
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingOuterHardsuitSpatio
+      - id: YellowOxygenTankFilled
+      - id: NitrogenTankFilled
+      - id: ClothingShoesBootsMag
+      - id: ClothingMaskGasExplorer
+# Currently do not function as 'true' mesons, so they're useless for salvagers.
+#      - id: ClothingEyesGlassesMeson
+      - id: ClothingBeltUtilityFilled
+      - id: ClothingNeckCloakMiner
+      - id: ClothingHandsGlovesComSalvage
+      - id: WeaponProtoKineticAcceleratorRe
+      - id: SurvivalKnife
+      - id: HandheldGPSBasic
+      - id: RadioHandheld
+      - id: OreBag
+        prob: 0.5
+      - id: Flare
+        prob: 0.3
+      - id: Flare
+        prob: 0.3
+      - id: Flare
+        prob: 0.3
+
+- type: entity
+  id: LockerMinerFilled
+  suffix: Filled
+  parent: LockerMiner
+  components:
+  - type: StorageFill
+    contents:
+# Currently do not function as 'true' mesons, so they're useless for salvagers.
+#      - id: ClothingEyesGlassesMeson
+      - id: WeaponCutter
+      - id: ClothingMaskGasExplorer
+      - id: ClothingBeltMiningWebbing
+      - id: ClothingOuterArmorMiner
+      - id: WeaponCrusher
+      - id: Pickaxe
+      - id: ClothingHandsGlovesColorBlack
+      - id: HandheldGPSBasic
+      - id: RadioHandheld
+      - id: OreBag

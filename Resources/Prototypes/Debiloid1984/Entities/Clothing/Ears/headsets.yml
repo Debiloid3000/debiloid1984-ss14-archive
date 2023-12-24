@@ -1,0 +1,14 @@
+- type: entity
+  parent: ClothingHeadset
+  id: ClothingHeadsetBlueShield
+  name: command headset
+  description: A headset with a commanding channel.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyStationMaster
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/Ears/Headsets/blueshield.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/Ears/Headsets/blueshield.rsi

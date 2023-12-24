@@ -1,0 +1,11 @@
+- type: lobbyBackground
+  id: 21Screen
+  background: /Textures/IanStation/LobbyScreens/21.png
+
+- type: lobbyBackground
+  id: Space_station_14_ART_1
+  background: /Textures/IanStation/LobbyScreens/Space_station_14_ART_1.png
+
+- type: lobbyBackground
+  id: 3Screen
+  background: /Textures/IanStation/LobbyScreens/3.png

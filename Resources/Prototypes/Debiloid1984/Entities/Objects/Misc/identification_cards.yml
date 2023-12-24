@@ -1,0 +1,40 @@
+﻿- type: entity
+  parent: IDCardStandard
+  id: ComSalvageIDCard
+  name: commander salvage ID card
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Objects/Misc/id_cards.rsi
+    layers:
+    - state: default
+    - state: idcomsalvage
+  - type: PresetIdCard
+    job: CommanderSalvage
+
+- type: entity
+  parent: IDCardStandard
+  id: BlueShieldIDCard
+  name: blueshield ID card
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Objects/Misc/id_cards.rsi
+    layers:
+    - state: blue
+    - state: idblueshield
+  - type: Item
+    heldPrefix: blue
+  - type: PresetIdCard
+    job: BlueShield
+
+- type: entity
+  parent: IDCardStandard
+  id: MinerIDCard
+  name: miner ID Card
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Objects/Misc/id_cards.rsi
+    layers:
+    - state: default
+    - state: idsalvage
+  - type: PresetIdCard
+    job: Miner

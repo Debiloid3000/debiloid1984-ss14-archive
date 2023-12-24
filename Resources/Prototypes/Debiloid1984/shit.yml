@@ -1,0 +1,113 @@
+- type: entity
+  parent: SyndiHardSuitBriefcase
+  id: SyndicateEliteHardsuitBackmen
+  name: case with hardsuit
+  description: Syndicate hardsuit
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingOuterHardsuitSyndieEliteBackmen
+
+- type: entity
+  parent: SyndiHardSuitBriefcase
+  id: SyndicateCommanderHardsuitBackmen
+  name: case with hardsuit
+  description: Syndicate hardsuit
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingOuterHardsuitSyndieCommanderBackmen
+
+- type: entity
+  parent: SyndiHardSuitBriefcase
+  id: SyndicateHardsuitBackmen
+  name: case with hardsuit
+  description: Syndicate hardsuit
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingOuterHardsuitSyndieBackmen
+
+- type: entity
+  parent: SyndiHardSuitBriefcase
+  id: SyndicateHardsuitJuggernautBackmen
+  name: case with hardsuit
+  description: Syndicate hardsuit
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingOuterHardsuitJuggernautBackmen
+
+- type: entity
+  parent: SyndiHardSuitBriefcase
+  id: SyndicateHardsuitJuggernaut
+  name: case with hardsuit
+  description: Syndicate hardsuit
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingOuterHardsuitJuggernaut
+
+- type: entity
+  parent: PresentRandom
+  id: SyndiHardsuitJuggernaut
+  name: syndi hardsuit briefcase
+  description: A box containing a mystery minifigure. The side of the box depicts a few blacked-out 'rare' figures, including one with a large, non-humanoid shilouette.
+  components:
+  - type: Item
+    sprite: Debiloid1984/Objects/Storage/Briefcases/weapon_case_syndie.rsi
+  - type: Sprite
+    sprite: Debiloid1984/Objects/Storage/Briefcases/weapon_case_syndie.rsi
+    layers:
+      - state: icon
+  - type: SpawnItemsOnUse
+    items:
+      - id: SyndicateHardsuitJuggernaut
+        orGroup: GiftPool
+      - id: SyndicateHardsuitJuggernautBackmen
+        orGroup: GiftPool
+
+- type: entity
+  parent: PresentRandom
+  id: SyndiHardsuitDuffelBag
+  name: syndi hardsuit duffelbag
+  description: A duffel bag containing one of the syndicate's spacesuits
+  components:
+  - type: Item
+    sprite: Clothing/Back/Duffels/syndicate.rsi
+  - type: Sprite
+    sprite: Clothing/Back/Duffels/syndicate.rsi
+    layers:
+      - state: icon
+  - type: SpawnItemsOnUse
+    items:
+      - id: ClothingBackpackDuffelSyndicateHardsuitBundle
+        orGroup: GiftPool
+      - id: ClothingBackpackDuffelSyndicateHardsuitNewBundle
+        orGroup: GiftPool
+      - id: ClothingBackpackDuffelSyndicateHardsuitBackmenBundle
+        orGroup: GiftPool
+
+- type: entity
+  parent: ClothingBackpackDuffelSyndicateBundle
+  id: ClothingBackpackDuffelSyndicateHardsuitNewBundle
+  name: syndicate hardsuit bundle
+  description: "Contains the Syndicate's signature blood red hardsuit."
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingOuterHardsuitSyndieNew
+      - id: ClothingMaskGasSyndicate
+      - id: ClothingHandsGlovesCombat
+
+- type: entity
+  parent: ClothingBackpackDuffelSyndicateBundle
+  id: ClothingBackpackDuffelSyndicateHardsuitBackmenBundle
+  name: syndicate hardsuit bundle
+  description: "Contains the Syndicate's signature blood red hardsuit."
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingOuterHardsuitSyndieBackmen
+      - id: ClothingMaskGasSyndicate
+      - id: ClothingHandsGlovesCombat

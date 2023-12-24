@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckMantleBS
+  name: blueshield officer's mantle
+  description: A nice mantle to protect your back, with a bright and completely inconspicuous, white shield emblem.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/Neck/mantles/bsmantle.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/Neck/mantles/bsmantle.rsi

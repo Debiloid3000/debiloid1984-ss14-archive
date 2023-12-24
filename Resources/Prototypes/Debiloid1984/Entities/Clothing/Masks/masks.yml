@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingMaskGasExplorer
+  id: ClothingMaskGasBlueShield
+  name: blueshield gas mask
+  description: A elite issue Blueshield gas mask.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/Mask/blueshield.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/Mask/blueshield.rsi

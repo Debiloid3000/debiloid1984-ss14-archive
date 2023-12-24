@@ -1,0 +1,16 @@
+- type: lobbyBackground
+  id: ClownAndHos
+  background: /Textures/Debiloid1984/LobbyScreens/clown_and_hos.png
+
+- type: lobbyBackground
+  id: Insanity
+  background: /Textures/Debiloid1984/LobbyScreens/insanity.png
+
+- type: lobbyBackground
+  id: PapersPls
+  background: /Textures/Debiloid1984/LobbyScreens/paperspls.png
+
+- type: lobbyBackground
+  id: RND
+  background: /Textures/Debiloid1984/LobbyScreens/rnd.png
+

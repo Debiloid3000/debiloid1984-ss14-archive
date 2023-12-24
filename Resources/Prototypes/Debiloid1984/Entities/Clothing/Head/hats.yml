@@ -1,0 +1,32 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBeretCargo
+  name: cargo beret
+  description: Beret for a real cargo man.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/Head/Hats/beret_cargo.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/Head/Hats/beret_cargo.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - HamsterWearable
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBlueShieldBeret
+  name: blueshield beret
+  description: Beret for a officer blueshield.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/Head/Hats/beret_blueshield.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/Head/Hats/beret_blueshield.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - HamsterWearable
+    - WhitelistChameleon
+

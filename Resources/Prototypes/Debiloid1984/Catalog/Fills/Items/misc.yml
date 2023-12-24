@@ -1,0 +1,28 @@
+- type: entity
+  parent: ClothingShoesBootsJack
+  id: ClothingShoesBootsSpetsnazFilled
+  components:
+  - type: ContainerFill
+    containers:
+      item:
+      - CombatKnife
+    - type: Sprite
+      sprite: Clothing/Shoes/Specific/swat.rsi
+    - type: Clothing
+      sprite: Clothing/Shoes/Specific/swat.rsi
+    - type: ContainerContainer
+      containers:
+        item: !type:ContainerSlot
+        storagebase: !type:Container
+    - type: Storage
+      grid:
+      - 0,0,2,1
+      whitelist:
+        tags:
+        - Knife
+        - Sidearm
+    - type: FootstepModifier
+      footstepSoundCollection:
+        collection: FootstepSoldier
+        params:
+          volume: -2

@@ -1,0 +1,34 @@
+- type: listing
+  id: UplinkKR51Bundle
+  name: KR51
+  description: KR51
+  icon: { sprite: /Textures/Debiloid1984/Objects/Weapons/Guns/Rifles/kr51.rsi, state: icon }
+  productEntity: ClothingBackpackDuffelSyndicateBundleKR51
+  cost:
+    Telecrystal: 17
+  categories:
+  - UplinkBundles
+
+#Я ТВОРЮ ХУЙНЮ#########
+
+- type: listing
+  id: UplinkMagazinePistolBoxSubMachineGun
+  name: SMG box magazine (.9×19mm parabellum)
+  description: SMG box magazine (.9×19mm parabellum)
+  icon: { sprite: Backmen/Objects/Weapons/Gunsx64/Magazines/Pistol/submachinegun_boxmag.rsi, state: base }
+  productEntity: MagazinePistolBoxSubMachineGun
+  cost:
+    Telecrystal: 7
+  categories:
+  - UplinkAmmo
+
+- type: listing
+  id: UplinkMagazineLightRifle
+  name: магазин (.30 винтовочные)
+  description: магазин (.30 винтовочные)
+  icon: { sprite: Objects/Weapons/Guns/Ammunition/Magazine/LightRifle/light_rifle_mag.rsi, state: base }
+  productEntity: MagazineLightRifle
+  cost:
+    Telecrystal: 8
+  categories:
+  - UplinkAmmo

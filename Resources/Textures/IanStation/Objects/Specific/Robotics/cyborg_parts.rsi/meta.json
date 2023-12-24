@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+    "states": [
+        {
+            "name": "borg_head_export"
+        },
+        {
+            "name": "borg_l_arm_export"
+        },
+        {
+            "name": "borg_l_leg_export"
+        },
+        {
+            "name": "borg_r_arm_export"
+        },
+        {
+            "name": "borg_chest_export"
+        },
+        {
+            "name": "borg_r_leg_export"
+        }
+    ]
+}

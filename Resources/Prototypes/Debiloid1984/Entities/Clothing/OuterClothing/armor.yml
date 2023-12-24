@@ -1,0 +1,22 @@
+- type: entity
+  parent: ClothingOuterBaseLarge
+  id: ClothingOuterArmorBlueshield
+  name: blueshield armor vest
+  description: Armor vest especially for Blueshield Officer
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/OuterClothing/Armor/blueshield.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/OuterClothing/Armor/blueshield.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.6
+        Heat: 0.5
+        Caustic: 0.9
+  - type: ExplosionResistance
+    damageCoefficient: 0.65
+  - type: GroupExamine
+

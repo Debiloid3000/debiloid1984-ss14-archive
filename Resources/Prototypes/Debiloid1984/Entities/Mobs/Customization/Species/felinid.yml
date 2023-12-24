@@ -1,0 +1,34 @@
+# Anything human specific (e.g. UI, input) goes under MobHuman
+- type: entity
+  name: Urist McCat
+  parent: BaseMobSpeciesOrganic
+  id: BaseMobFelenid
+  abstract: true
+  components:
+  - type: HumanoidAppearance
+    species: Felenid
+  - type: Hunger
+    starvationDamage:
+      types:
+        Cold: 0.5
+        Bloodloss: 0.5
+  - type: Thirst
+  - type: Perishable
+  - type: Reactive
+    groups:
+      Flammable: [ Touch ]
+      Extinguish: [ Touch ]
+    reactions:
+    - reagents: [ Water, SpaceCleaner ]
+      methods: [ Touch ]
+      effects:
+      - !type:WashCreamPieReaction
+
+- type: entity
+  name: Urist McHands
+  id: MobFelenidDummy
+  parent: BaseSpeciesDummy
+  noSpawn: true
+  components:
+  - type: HumanoidAppearance
+    species: Felinid

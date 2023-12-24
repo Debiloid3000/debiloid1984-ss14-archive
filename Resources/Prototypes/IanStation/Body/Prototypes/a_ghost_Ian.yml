@@ -1,0 +1,26 @@
+- type: body
+  id: AghostIan
+  name: "aGhostIan"
+  root: torso
+  slots:
+    torso:
+      part: TorsoHuman
+      connections:
+      - left arm
+      - right arm
+    right arm:
+      part: RightArmHuman
+      connections:
+      - right hand
+    left arm:
+      part: LeftArmHuman
+      connections:
+      - left hand
+    right hand:
+      part: RightHandHuman
+    left hand:
+      part: LeftHandHuman
+    head:
+      part: HeadHuman
+      connections:
+      - torso

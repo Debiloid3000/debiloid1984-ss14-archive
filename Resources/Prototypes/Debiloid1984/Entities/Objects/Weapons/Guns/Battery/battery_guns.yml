@@ -1,0 +1,81 @@
+- type: entity
+  name: X-01 multiphase energy gun
+  parent: BaseWeaponBatterySmall
+  id: WeaponLaserHos
+  description: Nanotrasen's first attempt to remake the Antique Laser Gun. Has more firing modes on offer but lacks the ability to self-recharge.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Objects/Weapons/Guns/Battery/hoslasergun.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-4
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Clothing
+    sprite: Debiloid1984/Objects/Weapons/Guns/Battery/hoslasergun.rsi
+  - type: Gun
+    projectileSpeed: 75
+  - type: ProjectileBatteryAmmoProvider
+    proto: X01Attack
+    fireCost: 100 
+  - type: BatteryWeaponFireModes
+    fireModes:
+    - proto: X01Attack
+      fireCost: 100
+    - proto: BulletDisablerX01
+      fireCost: 75
+  - type: Battery
+    maxCharge: 1200
+    startingCharge: 1200
+  - type: MagazineVisuals
+    magState: mag
+    steps: 5
+    zeroVisible: true
+  - type: Appearance
+  - type: Tag
+    tags:
+    - HighRiskItem
+  - type: StaticPrice
+    price: 750
+
+- type: entity
+  name: Cutter
+  parent: BaseWeaponBatterySmall
+  id: WeaponCutter
+  description: A self-defense weapon that exhausts organic targets, weakening them until they collapse.
+  components:
+    - type: Sprite
+      sprite: Debiloid1984/Objects/Weapons/Guns/Battery/cutter.rsi
+      state: icon
+    - type: Gun
+      fireRate: 0.6
+      soundGunshot:
+        path: /Audio/Debiloid1984/Weapons/Guns/GunShots/plasma_cutter.ogg
+    - type: Item
+      size: Normal
+    - type: ProjectileBatteryAmmoProvider
+      proto: BulletCutter
+      fireCost: 200
+    - type: Battery
+      maxCharge: 5000
+      startingCharge: 5000
+    - type: Appearance
+
+- type: entity
+  name: Advanced Cutter
+  parent: WeaponCutter
+  id: WeaponCutterAdv
+  description: A self-defense weapon that exhausts organic targets, weakening them until they collapse.
+  components:
+    - type: Sprite
+      sprite: Debiloid1984/Objects/Weapons/Guns/Battery/cutteradv.rsi
+      state: icon
+    - type: Gun
+      fireRate: 1
+      soundGunshot:
+        path: /Audio/Debiloid1984/Weapons/Guns/GunShots/plasma_cutter.ogg
+    - type: ProjectileBatteryAmmoProvider
+      proto: BulletCutterAdv
+      fireCost: 100
+    - type: Appearance

@@ -1,0 +1,15 @@
+- type: technology
+  id: AdvancedMagazines
+  name: research-technology-advanced-magazines
+  icon:
+    sprite: Objects/Weapons/Guns/Ammunition/Magazine/Magnum/magnum_smg_mag.rsi
+    state: red
+  discipline: Arsenal
+  tier: 2
+  cost: 15000
+  recipeUnlocks:
+  - MagazineMagnumSubMachineGun
+  - MagazineUniversal
+  - MagazineShotgunSaiga
+  - MagazineLightMachineGunDrum
+

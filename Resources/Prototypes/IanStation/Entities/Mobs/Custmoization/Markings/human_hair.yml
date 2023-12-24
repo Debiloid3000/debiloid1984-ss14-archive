@@ -1,0 +1,22 @@
+# - type: marking
+#  id: HumanHairLongBedheadOld
+#  bodyPart: Hair
+#  markingCategory: Hair
+#  sprites:
+#    - sprite: IanStation/Mobs/Customization/human_hair.rsi
+#      state: long_bedhead
+# - type: marking
+#  id: HumanHairFloorlengthBedheadOld
+#  bodyPart: Hair
+#  markingCategory: Hair
+#  sprites:
+#    - sprite: IanStation/Mobs/Customization/human_hair.rsi
+#      state: floorlength_bedhead
+# - type: marking
+#  id: HumanHairBeehiveOld
+#  bodyPart: Hair
+#  markingCategory: Hair
+#  sprites:
+#    - sprite: IanStation/Mobs/Customization/human_hair.rsi
+#      state: beehive
+

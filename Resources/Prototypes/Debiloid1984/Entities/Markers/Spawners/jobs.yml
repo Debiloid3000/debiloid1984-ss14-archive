@@ -1,0 +1,89 @@
+- type: entity
+  id: SpawnPointCommanderSalvage
+  parent: SpawnPointJobBase
+  name: comsalvage
+  components:
+  - type: SpawnPoint
+    job_id: CommanderSalvage
+  - type: Sprite
+    sprite: Debiloid1984/Markers/jobs.rsi
+    layers:
+      - state: green
+      - state: comsalvage
+
+- type: entity
+  id: SpawnPointBlueShield
+  parent: SpawnPointJobBase
+  name: blueshield officer
+  components:
+  - type: SpawnPoint
+    job_id: BlueShield
+  - type: Sprite
+    sprite: Debiloid1984/Markers/jobs.rsi
+    layers:
+      - state: green
+      - state: blueshield
+
+#senior roles
+
+- type: entity
+  id: SpawnPointSeniorOfficer
+  parent: SpawnPointJobBase
+  name: seniorofficer
+  components:
+  - type: SpawnPoint
+    job_id: SeniorOfficer
+  - type: Sprite
+    layers:
+      - state: green
+      - state: seniorofficer
+
+- type: entity
+  id: SpawnPointSeniorResearcher
+  parent: SpawnPointJobBase
+  name: seniorresearcher
+  components:
+  - type: SpawnPoint
+    job_id: SeniorResearcher
+  - type: Sprite
+    layers:
+      - state: green
+      - state: seniorresearcher
+
+- type: entity
+  id: SpawnPointSeniorPhysician
+  parent: SpawnPointJobBase
+  name: seniorphysician
+  components:
+  - type: SpawnPoint
+    job_id: SeniorPhysician
+  - type: Sprite
+    layers:
+      - state: green
+      - state: seniorphysician
+
+- type: entity
+  id: SpawnPointSeniorEngineer
+  parent: SpawnPointJobBase
+  name: seniorengineer
+  components:
+  - type: SpawnPoint
+    job_id: SeniorEngineer
+  - type: Sprite
+    layers:
+      - state: green
+      - state: seniorengineer
+
+#- type: entity
+#  id: SpawnPointMiner
+#  parent: SpawnPointJobBase
+#  name: salvagespecialist
+#  components:
+#  - type: SpawnPoint
+#    job_id: Miner
+#  - type: Sprite
+#    sprite: Debiloid1984/Markers/jobs.rsi
+#    layers:
+#      - state: green
+#      - state: miner
+

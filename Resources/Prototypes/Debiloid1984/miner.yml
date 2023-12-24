@@ -1,0 +1,249 @@
+- type: entity
+  name: box of magazines
+  parent: BoxCardboard
+  id: BoxCardboardMedPens
+  description: A box full of medpens.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Objects/Storage/boxes.rsi
+    layers:
+      - state: box_of_doom
+      - state: dna
+
+- type: entity
+  name: box of lux medpens
+  parent: BoxCardboardMedPens
+  id: Boxluxmedpen
+  description: A box full of medpens.
+  components:
+  - type: StorageFill
+    contents:
+      - id: Luxurymedpen
+        amount: 6
+
+- type: entity
+  name: Luxury Medipen 
+  parent: ChemicalMedipen
+  id: Luxurymedpen
+  description: Contains enough stimulants for you to have the chemical's effect for 30 seconds. Use it when you're sure you're ready to throw down.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Objects/Specific/Medical/medipen.rsi
+    layers:
+    - state: luxpen
+      map: ["enum.SolutionContainerLayers.Fill"]
+  - type: Item
+    sprite: Debiloid1984/Objects/Specific/Medical/medipen.rsi
+  - type: SolutionContainerManager
+    solutions:
+      pen:
+        maxVol: 34
+        reagents:
+        - ReagentId: Epinephrine
+          Quantity: 15
+        - ReagentId: Ichor
+          Quantity: 15
+        - ReagentId: TranexamicAcid
+          Quantity: 4
+  - type: SolutionContainerVisuals
+    maxFillLevels: 1
+    changeColor: false
+    emptySpriteName: luxpen_empty
+  - type: Hypospray
+    solutionName: pen
+    transferAmount: 30
+  - type: StaticPrice
+    price: 500
+  - type: Tag
+    tags: []
+
+- type: entity
+  name: ore bag bluespace
+  id: OreBagBluespace
+  parent: BaseStorageItem
+  description: A robust bag for salvage specialists and miners alike to carry large amounts of ore.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Objects/Specific/Mining/ore_bag_bluespace.rsi
+    state: icon
+  - type: Clothing
+    sprite: Debiloid1984/Objects/Specific/Mining/ore_bag_bluespace.rsi
+    quickEquip: false
+    slots:
+    - belt
+  - type: Item
+    size: Ginormous
+  - type: Storage
+    maxItemSize: Huge
+    grid:
+    - 0,0,19,9
+    quickInsert: true
+    areaInsert: true
+    areaInsertRadius: 14
+    whitelist:
+      tags:
+        - Ore
+  - type: Dumpable
+
+- type: entity
+  id: CrateMinerEquipment
+  name: "mining"
+  description: For the daring.
+  suffix: Filled
+  parent: CrateGenericSteel
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponCutter
+        amount: 2
+      - id: OreBagBluespace
+        amount: 2
+
+- type: entity
+  id: CrateMinerAdvancedEquipment
+  name: "mining advanced"
+  description: For the daring.
+  suffix: Filled
+  parent: CrateGenericSteel
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponCutterAdv
+        amount: 2
+      - id: OreBagBluespace
+        amount: 2
+
+- type: entity
+  name: Cursed katana
+  parent: BaseItem
+  id: Katanacursed
+  description: Ancient craftwork made with not so ancient plasteel.
+  components:
+  - type: Sharp
+  - type: Unremoveable
+  - type: Tag
+    tags:
+    - Katana
+  - type: Sprite
+    sprite: Debiloid1984/Objects/Weapons/Melee/katana_cursed.rsi
+    state: icon
+  - type: MeleeWeapon
+    damage:
+      types:
+        Slash: 35
+    soundHit:
+        path: /Audio/Weapons/bladeslice.ogg
+  - type: Item
+    size: Normal
+    sprite: Debiloid1984/Objects/Weapons/Melee/katana_cursed.rsi
+  - type: DisarmMalus
+
+- type: entity
+  parent: BaseItem
+  id: KatanacursedShard
+  name: Strange shard
+  description: A small box containing a hypopen. Packaging disintegrates when opened, leaving no evidence behind.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Objects/Weapons/Melee/katana_cursed.rsi
+    state: katana-shard
+  - type: SpawnItemsOnUse
+    items:
+    - id: Katanacursed
+    sound:
+      path: /Audio/Effects/bite.ogg
+
+- type: listing
+  id: uplinkMinerSyndie
+  name: uplink-syndie-miner-armor-name
+  description: uplink-syndie-miner-armor-desc
+  productEntity: ClothingOuterArmorMinerSyndie
+  cost:
+    Telecrystal: 6
+  categories:
+  - UplinkJob
+  conditions:
+  - !type:BuyerJobCondition
+    whitelist:
+    - Miner
+
+- type: entity
+  id: LockerMiner
+  parent: LockerBase
+  name: salvage specialist's equipment
+  description: Nevermind the pickaxe.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Structures/Storage/closet.rsi
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: shaftminer
+    stateDoorOpen: shaftminer_open
+    stateDoorClosed: shaftminer_door
+  - type: AccessReader
+    access: [["Salvage"]]
+
+- type: entity
+  parent: MaterialBase
+  id: MaterialDragonSinew
+  name: refined diamond
+  suffix: Full
+  components:
+  - type: Stack
+    stackType: DragonSinew
+    count: 10
+  - type: Sprite
+    sprite: Debiloid1984/Objects/Materials/materials.rsi
+    state: dragonsinew
+  - type: Item
+    size: Normal
+
+- type: entity
+  parent: MaterialDragonSinew
+  id: MaterialDragonSinew1
+  name: refined diamond
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
+
+- type: entity
+  parent: MaterialBase
+  id: MaterialXenoScale
+  name: refined diamond
+  suffix: Full
+  components:
+  - type: Stack
+    stackType: XenoScale
+    count: 10
+  - type: Sprite
+    sprite: Debiloid1984/Objects/Materials/materials.rsi
+    state: alienplate
+  - type: Item
+    size: Normal
+
+- type: entity
+  parent: MaterialXenoScale
+  id: MaterialXenoScale1
+  name: refined diamond
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
+
+- type: stack
+  id: XenoScale
+  name: xenoscale
+  icon: { sprite: /Textures/Debiloid1984/Objects/Materials/materials.rsi, state: alienplate }
+  spawn: MaterialXenoScale1
+  maxCount: 10
+  itemSize: 6
+
+- type: stack
+  id: DragonSinew
+  name: dragonsinew
+  icon: { sprite: /Textures/Debiloid1984/Objects/Materials/materials.rsi, state: dragonsinew }
+  spawn: MaterialDragonSinew1
+  maxCount: 10
+  itemSize: 6
+

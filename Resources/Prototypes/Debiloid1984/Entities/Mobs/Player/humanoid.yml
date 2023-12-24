@@ -1,0 +1,227 @@
+
+## ERT Leader Delta
+
+- type: entity
+  id: RandomHumanoidSpawnerERTLeaderEVADelta
+  parent: RandomHumanoidSpawnerERTLeader
+  name: ERT leader Delta
+  suffix: ERTRole, Armored EVA, Delta
+  components:
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      state: ertleadereva
+    - type: RandomHumanoidSpawner
+      settings: ERTLeaderEVADelta
+
+- type: randomHumanoidSettings
+  id: ERTLeaderEVADelta
+  parent: ERTLeader
+  components:
+    - type: MindShield
+    - type: GhostRole
+      name: ghost-role-information-ert-leader-name
+      description: ghost-role-information-ert-leader-description
+    - type: Vocal
+      maleScream: /Audio/Corvax/Effects/off.ogg
+      femaleScream: /Audio/Corvax/Effects/off.ogg
+    - type: Speech
+      speechSounds: Сombine
+    - type: GhostTakeoverAvailable
+    - type: Loadout
+      prototypes: [ ERTLeaderGearEVADelta ]
+
+## ERT Janitor Delta
+
+- type: entity
+  id: RandomHumanoidSpawnerERTJanitorEVADelta
+  parent: RandomHumanoidSpawnerERTJanitor
+  name: ERT janitor
+  suffix: ERTRole, Enviro EVA, Delta
+  components:
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      state: ertjanitoreva
+    - type: RandomHumanoidSpawner
+      settings: ERTJanitorEVADelta
+
+- type: randomHumanoidSettings
+  id: ERTJanitorEVADelta
+  parent: ERTJanitor
+  components:
+    - type: MindShield
+    - type: GhostRole
+      name: ghost-role-information-ert-janitor-name
+      description: ghost-role-information-ert-janitor-description
+    - type: Vocal
+      maleScream: /Audio/Corvax/Effects/off.ogg
+      femaleScream: /Audio/Corvax/Effects/off.ogg
+    - type: Speech
+      speechSounds: Сombine
+    - type: GhostTakeoverAvailable
+    - type: Loadout
+      prototypes: [ ERTJanitorGearEVADelta ]
+
+## ERT Engineer Delta
+
+- type: entity
+  id: RandomHumanoidSpawnerERTEngineerEVADelta
+  parent: RandomHumanoidSpawnerERTEngineer
+  name: ERT engineer
+  suffix: ERTRole, Enviro EVA, Delta
+  components:
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      state: ertengineereva
+    - type: RandomHumanoidSpawner
+      settings: ERTEngineerEVADelta
+
+- type: randomHumanoidSettings
+  id: ERTEngineerEVADelta
+  parent: ERTEngineer
+  components:
+    - type: MindShield
+    - type: GhostRole
+      name: ghost-role-information-ert-engineer-name
+      description: ghost-role-information-ert-engineer-description
+    - type: Vocal
+      maleScream: /Audio/Corvax/Effects/off.ogg
+      femaleScream: /Audio/Corvax/Effects/off.ogg
+    - type: Speech
+      speechSounds: Сombine
+    - type: GhostTakeoverAvailable
+    - type: Loadout
+      prototypes: [ ERTEngineerGearEVADelta ]
+
+## ERT Security Delta
+
+- type: entity
+  id: RandomHumanoidSpawnerERTSecurityEVADelta
+  parent: RandomHumanoidSpawnerERTSecurity
+  name: ERT security
+  suffix: ERTRole, Armored EVA, Delta
+  components:
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      state: ertsecurityeva
+    - type: RandomHumanoidSpawner
+      settings: ERTSecurityEVADelta
+
+- type: randomHumanoidSettings
+  id: ERTSecurityEVADelta
+  parent: ERTSecurity
+  components:
+    - type: MindShield
+    - type: GhostRole
+      name: ghost-role-information-ert-security-name
+      description: ghost-role-information-ert-security-description
+    - type: Vocal
+      maleScream: /Audio/Corvax/Effects/off.ogg
+      femaleScream: /Audio/Corvax/Effects/off.ogg
+    - type: Speech
+      speechSounds: Сombine
+    - type: GhostTakeoverAvailable
+    - type: Loadout
+      prototypes: [ ERTSecurityGearEVADelta ]
+
+
+## ERT Medic Delta
+
+- type: entity
+  id: RandomHumanoidSpawnerERTMedicalEVADelta
+  parent: RandomHumanoidSpawnerERTMedical
+  name: ERT medic
+  suffix: ERTRole, Armored EVA, Delta
+  components:
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      state: ertmedicaleva
+    - type: RandomHumanoidSpawner
+      settings: ERTMedicalEVADelta
+
+- type: randomHumanoidSettings
+  id: ERTMedicalEVADelta
+  parent: ERTMedical
+  components:
+    - type: MindShield
+    - type: GhostRole
+      name: ghost-role-information-ert-medical-name
+      description: ghost-role-information-ert-medical-description
+    - type: Vocal
+      maleScream: /Audio/Corvax/Effects/off.ogg
+      femaleScream: /Audio/Corvax/Effects/off.ogg
+    - type: Speech
+      speechSounds: Сombine
+    - type: GhostTakeoverAvailable
+    - type: Loadout
+      prototypes: [ ERTMedicalGearEVADelta ]
+
+## CBURN LEADER
+
+- type: entity
+  id: RandomHumanoidSpawnerCBURNLeader
+  name: CBURN Leader
+  suffix: ERTRole
+  components:
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      state: cburn
+    - type: RandomHumanoidSpawner
+      settings: CBURNLeader
+
+- type: randomHumanoidSettings
+  speciesBlacklist: # Corvax-MRP
+    - Diona
+  id: CBURNLeader
+  components:
+    - type: MindShield
+    - type: Loadout
+      prototypes: [CBURNLeaderGear]
+    - type: GhostRole
+      name: CBURN Leader
+      description: Leader squad CBURN
+    - type: Vocal
+      maleScream: /Audio/Corvax/Effects/off.ogg
+      femaleScream: /Audio/Corvax/Effects/off.ogg
+    - type: Speech
+      speechSounds: Сombine
+    - type: GhostTakeoverAvailable
+    - type: RandomMetadata
+      nameSegments:
+      - NamesFirstMilitaryCorvax # Corvax-Localization
+      - NamesLastERTCallsign # Corvax-Localization
+
+## DEATH SQUAD OFFICER
+
+- type: entity
+  id: RandomHumanoidSpawnerDeathsquadOfficer
+  name: Officer DeathSquad
+  suffix: ERTRole
+  components:
+    - type: Sprite
+      sprite: Debiloid1984/Markers/jobs.rsi
+      state: DeathSquadOfficer
+    - type: RandomHumanoidSpawner
+      settings: DeathsquadOfficer
+
+- type: randomHumanoidSettings
+  speciesBlacklist: # Corvax-MRP
+    - Diona
+  id: DeathsquadOfficer
+  components:
+    - type: MindShield
+    - type: Loadout
+      prototypes: [DeathSquadOfficerGear]
+    - type: GhostRole
+      name: Officer DeathSquad
+      description: Officer DeathSquad
+    - type: Vocal
+      maleScream: /Audio/Corvax/Effects/off.ogg
+      femaleScream: /Audio/Corvax/Effects/off.ogg
+    - type: Speech
+      speechSounds: Сombine
+    - type: GhostTakeoverAvailable
+    - type: RandomMetadata
+      nameSegments:
+      - NamesFirstMilitaryCorvax # Corvax-Localization
+      - NamesLastERTCallsign # Corvax-Localization
+

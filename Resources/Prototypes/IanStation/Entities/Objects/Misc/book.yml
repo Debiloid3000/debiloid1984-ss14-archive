@@ -1,0 +1,16 @@
+- type: entity
+  parent: BookBase
+  id: BookSiiverSoul
+  name: Сборник жарких историй Сильвер Соул
+  description: Как её вообще пронесли на станцию.
+  components:
+    - type: Sprite
+      sprite: IanStation/Objects/Misc/book.rsi
+      layers:
+        - state: silver
+    - type: MeleeWeapon
+      damage:
+        types:
+          Blunt: 6
+    - type: Paper
+      content: book-text-silver

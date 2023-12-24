@@ -1,0 +1,13 @@
+
+- type: technology
+  id: BorgModulSB
+  name: research-technology-security-modul
+  icon:
+    sprite: IanStation/Objects/Specific/Robotics/borgmodule.rsi
+    state: generic
+  discipline: Arsenal
+  tier: 2
+  cost: 10000
+  recipeUnlocks:
+  - BorgModuleArrest
+  - BorgModuleCombat

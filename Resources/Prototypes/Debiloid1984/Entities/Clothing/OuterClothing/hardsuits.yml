@@ -1,0 +1,478 @@
+#Deathsquad OLD
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitDeathsquadOld
+  name: old deathsquad hardsuit
+  description: An advanced hardsuit favored by commandos for use in special operations.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/OuterClothing/Hardsuits/olddeathsquad.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/OuterClothing/Hardsuits/olddeathsquad.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: TemperatureProtection
+    coefficient: 0.001
+  - type: ExplosionResistance
+    damageCoefficient: 0.2
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.2 # best armor in the game xd
+        Slash: 0.2
+        Piercing: 0.2
+        Heat: 0.1
+        Radiation: 0.1
+        Caustic: 0.2
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitDeathsquadOld
+
+#New Syndicate Elite Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitSyndieEliteNew
+  name: new syndicate elite hardsuit
+  description: An upgraded version of the blood red hardsuit that features enhanced fireproofing, pressure resist, and superior armor.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/OuterClothing/Hardsuits/newsyndieelite.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/OuterClothing/Hardsuits/newsyndieelite.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: TemperatureProtection
+    coefficient: 0.001
+  - type: ExplosionResistance
+    damageCoefficient: 0.3
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.4
+        Heat: 0.2
+        Radiation: 0.25
+        Caustic: 0.5
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitSyndieEliteNew
+
+#Syndicate Commander Hardsuit Old
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitSyndieCommanderOld
+  name: syndicate commander hardsuit
+  description: A blood red hardsuit heavily modified for use by the commander of operative squads.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/OuterClothing/Hardsuits/oldsyndiecommander.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/OuterClothing/Hardsuits/oldsyndiecommander.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.4
+        Slash: 0.4
+        Piercing: 0.3
+        Heat: 0.5
+        Radiation: 0.25
+        Caustic: 0.4
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitSyndieCommanderOld
+
+#Blood-red Hardsuit NEW
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitSyndieNew
+  name: new blood-red hardsuit
+  description: A heavily armored and agile advanced hardsuit designed for work in special operations.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/OuterClothing/Hardsuits/newsyndicate.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/OuterClothing/Hardsuits/newsyndicate.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.5
+        Heat: 0.5
+        Radiation: 0.5
+        Caustic: 0.5
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitSyndieNew
+
+#QM Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitQM
+  name: quartermaster hardsuit
+  description: A special suit for quartermaster.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/OuterClothing/Hardsuits/kmsuit.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/OuterClothing/Hardsuits/kmsuit.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.5
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.3
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.7
+        Slash: 0.7
+        Piercing: 0.5
+        Radiation: 0.3
+        Caustic: 0.7
+  - type: ClothingSpeedModifier
+    walkModifier: 0.75
+    sprintModifier: 0.75
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitQM
+
+#ERT Security hardsuit BlueShield
+- type: entity
+  parent: ClothingOuterHardsuitSyndie
+  id: ClothingOuterHardsuitERTBlueShield
+  name: ERT security's hardsuit
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/OuterClothing/Hardsuits/ERTSuits/ertblueshield.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/OuterClothing/Hardsuits/ERTSuits/ertblueshield.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitERTBlueShield
+
+#OLD ERT HARDSUIT 
+
+#ERT Leader Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitSyndieCommander
+  id: ClothingOuterHardsuitERTLeaderOld
+  name: ERT leader's hardsuit
+  description: A protective hardsuit worn by the leader of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/OuterClothing/Hardsuits/ERTSuitsOld/ertleader.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/OuterClothing/Hardsuits/ERTSuitsOld/ertleader.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitERTLeaderOld
+
+#ERT Engineer Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitCBURN
+  id: ClothingOuterHardsuitERTEngineerOld
+  name: ERT engineer's hardsuit
+  description: A protective hardsuit worn by the engineers of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/OuterClothing/Hardsuits/ERTSuitsOld/ertengineer.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/OuterClothing/Hardsuits/ERTSuitsOld/ertengineer.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitERTEngineerOld
+
+#ERT Medic Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitMedic
+  id: ClothingOuterHardsuitERTMedicalOld
+  name: ERT medic's hardsuit
+  description: A protective hardsuit worn by the medics of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/OuterClothing/Hardsuits/ERTSuitsOld/ertmedical.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/OuterClothing/Hardsuits/ERTSuitsOld/ertmedical.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitERTMedicalOld
+
+#ERT Security Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitSyndie
+  id: ClothingOuterHardsuitERTSecurityOld
+  name: ERT security's hardsuit
+  description: A protective hardsuit worn by the security officers of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/OuterClothing/Hardsuits/ERTSuitsOld/ertsecurity.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/OuterClothing/Hardsuits/ERTSuitsOld/ertsecurity.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitERTSecurityOld
+
+#ERT Janitor Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitCBURN
+  id: ClothingOuterHardsuitERTJanitorOld
+  name: ERT janitor's hardsuit
+  description: A protective hardsuit worn by the janitors of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/OuterClothing/Hardsuits/ERTSuitsOld/ertjanitor.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/OuterClothing/Hardsuits/ERTSuitsOld/ertjanitor.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitERTJanitorOld
+
+
+#CORVAX ERT HARDSUITS
+
+#ERT Leader Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitSyndieCommander
+  id: ClothingOuterHardsuitERTLeaderCorvax
+  name: ERT leader's hardsuit
+  description: A protective hardsuit worn by the leader of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/OuterClothing/Hardsuits/ERTSuits2/ertleader2.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/OuterClothing/Hardsuits/ERTSuits2/ertleader2.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitERTLeaderCorvax
+
+#ERT Engineer Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitCBURN
+  id: ClothingOuterHardsuitERTEngineerCorvax
+  name: ERT engineer's hardsuit
+  description: A protective hardsuit worn by the engineers of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/OuterClothing/Hardsuits/ERTSuits2/ertengineer2.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/OuterClothing/Hardsuits/ERTSuits2/ertengineer2.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitERTEngineerCorvax
+
+#ERT Medic Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitMedic
+  id: ClothingOuterHardsuitERTMedicalCorvax
+  name: ERT medic's hardsuit
+  description: A protective hardsuit worn by the medics of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/OuterClothing/Hardsuits/ERTSuits2/ertmedical2.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/OuterClothing/Hardsuits/ERTSuits2/ertmedical2.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitERTMedicalCorvax
+
+#ERT Security Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitSyndie
+  id: ClothingOuterHardsuitERTSecurityCorvax
+  name: ERT security's hardsuit
+  description: A protective hardsuit worn by the security officers of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/OuterClothing/Hardsuits/ERTSuits2/ertsecurity2.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/OuterClothing/Hardsuits/ERTSuits2/ertsecurity2.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitERTSecurityCorvax
+
+#ERT Janitor Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitCBURN
+  id: ClothingOuterHardsuitERTJanitorCorvax
+  name: ERT janitor's hardsuit
+  description: A protective hardsuit worn by the janitors of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/OuterClothing/Hardsuits/ERTSuits2/ertjanitor2.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/OuterClothing/Hardsuits/ERTSuits2/ertjanitor2.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitERTJanitorCorvax
+
+#BACKMEN SYNDICATE
+
+#Blood-red Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitSyndieBackmen
+  name: blood-red hardsuit
+  description: A heavily armored hardsuit designed for work in special operations. Property of Gorlex Marauders.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/OuterClothing/Hardsuits/syndicate/normal.rsi
+  - type: Item
+    size: Huge
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/OuterClothing/Hardsuits/syndicate/normal.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.5
+        Heat: 0.5
+        Radiation: 0.5
+        Caustic: 0.5
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitSyndieBackmen
+
+#Syndicate Elite Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitSyndieEliteBackmen
+  name: syndicate elite hardsuit
+  description: An elite version of the blood-red hardsuit, with improved armor and fireproofing. Property of Gorlex Marauders.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/OuterClothing/Hardsuits/syndicate/elite.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/OuterClothing/Hardsuits/syndicate/elite.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: TemperatureProtection
+    coefficient: 0.001
+  - type: ExplosionResistance
+    damageCoefficient: 0.3
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.4
+        Heat: 0.2
+        Radiation: 0.25
+        Caustic: 0.5
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitSyndieEliteBackmen
+
+#Syndicate Commander Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitSyndieCommanderBackmen
+  name: syndicate commander hardsuit
+  description: A bulked up version of the blood-red hardsuit, purpose-built for the commander of a syndicate operative squad. Has significantly improved armor for those deadly front-lines firefights.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/OuterClothing/Hardsuits/syndicate/commander.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/OuterClothing/Hardsuits/syndicate/commander.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.4
+        Slash: 0.4
+        Piercing: 0.3
+        Heat: 0.5
+        Radiation: 0.25
+        Caustic: 0.4
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitSyndieCommanderBackmen
+
+#Cybersun Juggernaut Hardsuit Backmen
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitJuggernautBackmen
+  name: cybersun juggernaut suit
+  description: A suit made by the cutting edge R&D department at cybersun to be hyper resilient.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/OuterClothing/Hardsuits/syndicate/cybersun.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/OuterClothing/Hardsuits/syndicate/cybersun.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.2
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.3
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.2
+        Slash: 0.2
+        Piercing: 0.2
+        Heat: 0.2
+        Radiation: 0.2
+        Caustic: 0.2
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.65
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitCybersunBackmen
+
+#Deathsquad Officer
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitDeathsquadOfficer
+  name: officer deathsquad hardsuit
+  description: An advanced hardsuit favored by commandos for use in special operations.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/OuterClothing/Hardsuits/deathsquad_officer.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/OuterClothing/Hardsuits/deathsquad_officer.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: TemperatureProtection
+    coefficient: 0.001
+  - type: ExplosionResistance
+    damageCoefficient: 0.2
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.1 # best armor in the game xd
+        Slash: 0.1
+        Piercing: 0.1
+        Heat: 0.1
+        Radiation: 0.1
+        Caustic: 0.1
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitDeathsquadOfficer

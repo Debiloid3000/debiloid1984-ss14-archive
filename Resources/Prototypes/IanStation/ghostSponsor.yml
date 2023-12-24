@@ -1,0 +1,13 @@
+﻿- type: ghostTheme
+  id: RenSaybere
+  components:
+    - type: Sprite
+      overrideContainerOcclusion: true # Ghosts always show up regardless of where they're contained.
+      noRot: true
+      drawdepth: Ghosts
+      sprite: IanStation/Mobs/Ghost/ghost_vip.rsi
+      state: ren_saybere
+      color: "#fff8"
+      layers:
+        - state: ren_saybere
+

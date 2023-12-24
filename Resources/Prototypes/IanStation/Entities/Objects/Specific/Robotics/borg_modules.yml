@@ -1,0 +1,44 @@
+- type: entity
+  id: BaseBorgModuleSB
+  parent: BaseBorgModule
+  abstract: true
+  components:
+  - type: Tag
+    tags:
+    - BorgModuleSB
+
+- type: entity
+  id: BorgModuleArrest
+  parent: [ BaseBorgModuleSB, BaseProviderBorgModule ]
+  name: borg module arrest
+  description: Standard arrest module.
+  components:
+  - type: Sprite
+    sprite: IanStation/Objects/Specific/Robotics/borgmodule.rsi
+    layers:
+    - state: generic
+    - state: icon-arest
+  - type: BorgModule
+  - type: ItemBorgModule
+    items:
+    - StunbatonBorg
+    - WeaponDisablerBorg
+    - BorgHypoSB
+
+- type: entity
+  id: BorgModuleCombat
+  parent: [ BaseBorgModuleSB, BaseProviderBorgModule ]
+  name: combat module
+  description: Standard combat module.
+  components:
+  - type: Sprite
+    sprite: IanStation/Objects/Specific/Robotics/borgmodule.rsi
+    layers:
+    - state: generic
+    - state: icon-fight-extinguisher
+  - type: ItemBorgModule
+    items:
+    - WeaponLaserCarbineBorg
+    - WeaponMakeshiftLaserBorg
+    - EnergySword
+    

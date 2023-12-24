@@ -1,0 +1,20 @@
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconCommanderSalvage
+  icon:
+    sprite: Debiloid1984/Interface/Misc/job_icons.rsi
+    state: CommanderSalvage
+
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconBlueShield
+  icon:
+    sprite: Debiloid1984/Interface/Misc/job_icons.rsi
+    state: BlueShield
+
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconMiner
+  icon:
+    sprite: Debiloid1984/Interface/Misc/job_icons.rsi
+    state: Salvage

@@ -1,0 +1,454 @@
+#ERT Security Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitSyndie
+  id: ClothingHeadHelmetHardsuitERTBlueShield
+  noSpawn: true
+  name: ERT security hardsuit helmet
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/Head/Hardsuits/ERThelmets/ertblueshield.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/Head/Hardsuits/ERThelmets/ertblueshield.rsi
+  - type: PointLight
+    color: "#6088FF"
+
+#Deathsquad Hardsuit OLD
+- type: entity
+  parent: ClothingHeadHardsuitBase
+  id: ClothingHeadHelmetHardsuitDeathsquadOld
+  noSpawn: true
+  name: old deathsquad hardsuit helmet
+  description: A old robust helmet for special operations.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/Head/Hardsuits/olddeathsquad.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/Head/Hardsuits/olddeathsquad.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.08
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.80
+        Slash: 0.80
+        Piercing: 0.80
+        Heat: 0.80
+        Radiation: 0.80
+        Caustic: 0.95
+
+#Syndicate Elite Hardsuit New
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: ClothingHeadHelmetHardsuitSyndieEliteNew
+  noSpawn: true
+  name: new syndicate elite helmet
+  description: A variant of the blood red helmet designed by the Gorlex Marauders to be exceptionally fireproof and pressure proof.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/Head/Hardsuits/newsyndieelite.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/Head/Hardsuits/newsyndieelite.rsi
+  - type: PointLight
+    color: red
+  - type: PressureProtection
+    highPressureMultiplier: 0.08
+    lowPressureMultiplier: 1000
+  - type: TemperatureProtection
+    coefficient: 0.005
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+
+#Syndicate Commander Hardsuit Old
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: ClothingHeadHelmetHardsuitSyndieCommanderOld
+  noSpawn: true
+  name: syndicate commander helmet
+  description: A syndicate hardsuit helmet custom designed for commanders of syndicate operative squads.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/Head/Hardsuits/oldsyndiecommander.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/Head/Hardsuits/oldsyndiecommander.rsi
+  - type: PointLight
+    color: green
+  - type: PressureProtection
+    highPressureMultiplier: 0.08
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+
+#Blood-red Hardsuit New
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: ClothingHeadHelmetHardsuitSyndieNew
+  noSpawn: true
+  name: blood-red hardsuit helmet
+  description: An advanced red hardsuit helmet designed for work in special operations.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/Head/Hardsuits/newsyndicate.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/Head/Hardsuits/newsyndicate.rsi
+  - type: PointLight
+    color: green
+  - type: PressureProtection
+    highPressureMultiplier: 0.08
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+
+#QM Hardsuit
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: ClothingHeadHelmetHardsuitQM
+  noSpawn: true
+  name: quartermaster hardsuit helmet
+  description: A special helmet quatermaster.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/Head/Hardsuits/kmsuit.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/Head/Hardsuits/kmsuit.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.525
+    lowPressureMultiplier: 1000
+  - type: PointLight
+    radius: 7
+    energy: 3
+
+#ERT OLD HELMETS 
+
+#ERT Leader Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitSyndieCommander
+  id: ClothingHeadHelmetHardsuitERTLeaderOld
+  noSpawn: true
+  name: ERT leader hardsuit helmet
+  description: A special hardsuit helmet worn by members of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/Head/Hardsuits/ERThelmetsOld/ertleader.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/Head/Hardsuits/ERThelmetsOld/ertleader.rsi
+  - type: PointLight # Corvax-Resprite
+    color: cyan
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+
+#ERT Engineer Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitSyndie
+  id: ClothingHeadHelmetHardsuitERTEngineerOld
+  noSpawn: true
+  name: ERT engineer hardsuit helmet
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/Head/Hardsuits/ERThelmetsOld/ertengineer.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/Head/Hardsuits/ERThelmetsOld/ertengineer.rsi
+  - type: PointLight
+    color: "#f4ffad"
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+
+#ERT Medical Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitSyndieElite
+  id: ClothingHeadHelmetHardsuitERTMedicalOld
+  noSpawn: true
+  name: ERT medic hardsuit helmet
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/Head/Hardsuits/ERThelmetsOld/ertmedical.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/Head/Hardsuits/ERThelmetsOld/ertmedical.rsi
+  - type: PointLight
+    color: "#adffec"
+
+#ERT Security Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitSyndie
+  id: ClothingHeadHelmetHardsuitERTSecurityOld
+  noSpawn: true
+  name: ERT security hardsuit helmet
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/Head/Hardsuits/ERThelmetsOld/ertsecurity.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/Head/Hardsuits/ERThelmetsOld/ertsecurity.rsi
+  - type: PointLight
+    color: "#ffadc6"
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+
+#ERT Janitor Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitSyndie
+  id: ClothingHeadHelmetHardsuitERTJanitorOld
+  noSpawn: true
+  name: ERT janitor hardsuit helmet
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/Head/Hardsuits/ERThelmetsOld/ertjanitor.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/Head/Hardsuits/ERThelmetsOld/ertjanitor.rsi
+  - type: PointLight
+    color: "#cbadff"
+
+#ERT HELMETS CORVAX
+
+#ERT Leader Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitSyndieCommander
+  id: ClothingHeadHelmetHardsuitERTLeaderCorvax
+  noSpawn: true
+  name: ERT leader hardsuit helmet
+  description: A special hardsuit helmet worn by members of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/Head/Hardsuits/ERThelmets2/ertleader2.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/Head/Hardsuits/ERThelmets2/ertleader2.rsi
+  - type: PointLight # Corvax-Resprite
+    color: cyan
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+
+#ERT Engineer Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitSyndie
+  id: ClothingHeadHelmetHardsuitERTEngineerCorvax
+  noSpawn: true
+  name: ERT engineer hardsuit helmet
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/Head/Hardsuits/ERThelmets2/ertengineer2.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/Head/Hardsuits/ERThelmets2/ertengineer2.rsi
+  - type: PointLight
+    color: "#f4ffad"
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+
+#ERT Medical Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitSyndieElite
+  id: ClothingHeadHelmetHardsuitERTMedicalCorvax
+  noSpawn: true
+  name: ERT medic hardsuit helmet
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/Head/Hardsuits/ERThelmets2/ertmedical2.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/Head/Hardsuits/ERThelmets2/ertmedical2.rsi
+  - type: PointLight
+    color: "#adffec"
+
+#ERT Security Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitSyndie
+  id: ClothingHeadHelmetHardsuitERTSecurityCorvax
+  noSpawn: true
+  name: ERT security hardsuit helmet
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/Head/Hardsuits/ERThelmets2/ertsecurity2.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/Head/Hardsuits/ERThelmets2/ertsecurity2.rsi
+  - type: PointLight
+    color: "#ffadc6"
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+
+#ERT Janitor Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitSyndie
+  id: ClothingHeadHelmetHardsuitERTJanitorCorvax
+  noSpawn: true
+  name: ERT janitor hardsuit helmet
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/Head/Hardsuits/ERThelmets2/ertjanitor2.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/Head/Hardsuits/ERThelmets2/ertjanitor2.rsi
+  - type: PointLight
+    color: "#cbadff"
+
+
+#BACKMEN SYNDICATE
+
+#Blood-red Hardsuit Backmen
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: ClothingHeadHelmetHardsuitSyndieBackmen
+  noSpawn: true
+  name: blood-red hardsuit helmet
+  description: A heavily armored helmet designed for work in special operations. Property of Gorlex Marauders.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/Head/Hardsuits/syndicate/normal.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/Head/Hardsuits/syndicate/normal.rsi
+  - type: PointLight
+    color: green
+  - type: PressureProtection
+    highPressureMultiplier: 0.08
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+
+#Syndicate Elite Hardsuit Backmen
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: ClothingHeadHelmetHardsuitSyndieEliteBackmen
+  noSpawn: true
+  name: syndicate elite helmet
+  description: An elite version of the blood-red hardsuit's helmet, with improved armor and fireproofing. Property of Gorlex Marauders.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/Head/Hardsuits/syndicate/elite.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/Head/Hardsuits/syndicate/elite.rsi
+  - type: PointLight
+    color: red
+  - type: PressureProtection
+    highPressureMultiplier: 0.08
+    lowPressureMultiplier: 1000
+  - type: TemperatureProtection
+    coefficient: 0.005
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+
+#Syndicate Commander Hardsuit Backmen
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: ClothingHeadHelmetHardsuitSyndieCommanderBackmen
+  noSpawn: true
+  name: syndicate commander helmet
+  description: A bulked up version of the blood-red hardsuit's helmet, purpose-built for the commander of a syndicate operative squad. Has significantly improved armor for those deadly front-lines firefights.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/Head/Hardsuits/syndicate/commander.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/Head/Hardsuits/syndicate/commander.rsi
+  - type: PointLight
+    color: green
+  - type: PressureProtection
+    highPressureMultiplier: 0.08
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+
+#Cybersun Juggernaut Hardsuit
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase # Corvax-Resprite
+  id: ClothingHeadHelmetHardsuitCybersunBackmen
+  noSpawn: true
+  name: cybersun juggernaut helmet
+  description: Made of compressed red matter, this helmet was designed in the Tau chromosphere facility.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/Head/Hardsuits/syndicate/cybersun.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/Head/Hardsuits/syndicate/cybersun.rsi
+  - type: PointLight # Corvax-Resprite
+    color: red
+  - type: PressureProtection
+    highPressureMultiplier: 0.3
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+
+#Deathsquad officer
+- type: entity
+  parent: ClothingHeadHardsuitBase
+  id: ClothingHeadHelmetHardsuitDeathsquadOfficer
+  noSpawn: true
+  name: officer deathsquad hardsuit helmet
+  description: Officer deathsquad helmet
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/Head/Hardsuits/deathsquad_officer.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/Head/Hardsuits/deathsquad_officer.rsi
+  - type: PointLight # Corvax-Resprite
+    color: cyan
+  - type: PressureProtection
+    highPressureMultiplier: 0.08
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.50
+        Slash: 0.50
+        Piercing: 0.50
+        Heat: 0.50
+        Radiation: 0.50
+        Caustic: 0.70

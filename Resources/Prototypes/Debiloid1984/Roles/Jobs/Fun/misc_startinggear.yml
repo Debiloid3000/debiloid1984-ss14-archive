@@ -1,0 +1,128 @@
+#DELTA 
+- type: startingGear
+  id: ERTLeaderGearEVADelta
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitERTLeader
+    back: ClothingBackpackERTLeaderDeltaFilled
+    shoes: ClothingShoesBootsNedoSpetsnaz
+    mask: ClothingMaskGasERT
+    neck: CombatKnifeSpetsnaz
+    eyes: ClothingEyesGlassesSecurity
+    gloves: ClothingHandsGlovesCombat
+    outerClothing: ClothingOuterHardsuitERTLeaderCorvax
+    suitstorage: AirTankFilled
+    id: ERTLeaderPDA
+    ears: ClothingHeadsetAltCentCom
+    belt: ClothingBeltSecurityFilled
+    pocket1: WeaponPistolG22
+    pocket2: FlashlightSeclite
+
+- type: startingGear
+  id: ERTEngineerGearEVADelta
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitERTEngineer
+    back: ClothingBackpackERTEngineerDeltaFilled
+    shoes: ClothingShoesBootsMagAdv
+    mask: ClothingMaskGasERT
+    neck: CombatKnifeSpetsnaz
+    eyes: ClothingEyesGlassesMeson
+    gloves: ClothingHandsGlovesCombat
+    outerClothing: ClothingOuterHardsuitERTEngineerCorvax
+    suitstorage: AirTankFilled
+    id: ERTLeaderPDA
+    ears: ClothingHeadsetAltCentCom
+    belt: ClothingBeltChiefEngineerFilled
+    pocket1: Flare
+    pocket2: GasAnalyzer
+
+- type: startingGear
+  id: ERTSecurityGearEVADelta
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitERTSecurity
+    back: ClothingBackpackERTSecurityDeltaFilled
+    shoes: ClothingShoesBootsNedoSpetsnaz
+    mask: ClothingMaskGasERT
+    neck: CombatKnifeSpetsnaz
+    eyes: ClothingEyesGlassesSecurity
+    gloves: ClothingHandsGlovesCombat
+    outerClothing: ClothingOuterHardsuitERTSecurityCorvax
+    suitstorage: AirTankFilled
+    id: ERTLeaderPDA
+    ears: ClothingHeadsetAltCentCom
+    belt: ClothingBeltSecurityFilled
+    pocket1: WeaponPistolG22
+    pocket2: FlashlightSeclite
+
+- type: startingGear
+  id: ERTMedicalGearEVADelta
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitERTMedic
+    back: ClothingBackpackERTMedicalDeltaFilled
+    shoes: ClothingShoesBootsNedoSpetsnaz
+    mask: ClothingMaskGasERT
+    neck: CombatKnifeSpetsnaz
+    eyes: ClothingEyesHudMedical
+    gloves: ClothingHandsGlovesNitrile
+    outerClothing: ClothingOuterHardsuitERTMedicalCorvax
+    suitstorage: AirTankFilled
+    id: ERTLeaderPDA
+    ears: ClothingHeadsetAltCentCom
+    belt: ClothingBeltMedicalFilled
+    pocket1: HandheldHealthAnalyzer
+    pocket2: Flare
+
+- type: startingGear
+  id: ERTJanitorGearEVADelta
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitERTJanitor
+    back: ClothingBackpackERTJanitorDeltaFilled
+    shoes: ClothingShoesBootsMagAdv
+    mask: ClothingMaskGasERT
+    neck: CombatKnifeSpetsnaz
+    gloves: ClothingHandsGlovesColorPurple
+    outerClothing: ClothingOuterHardsuitERTJanitorCorvax
+    suitstorage: AirTankFilled
+    id: ERTLeaderPDA
+    ears: ClothingHeadsetAltCentCom
+    belt: ClothingBeltJanitorFilled
+    pocket1: Flare
+
+#CBURN Leader Gear
+- type: startingGear
+  id: CBURNLeaderGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSpetsnaz
+    back: ClothingBackpackDuffelRXBZZOld
+    mask: ClothingMaskGasExplorer
+    neck: CombatKnifeSpetsnaz
+    eyes: ClothingEyesGlassesSecurity
+    ears: ClothingHeadsetAltCentCom
+    gloves: ClothingHandsGlovesCombat
+    outerClothing: ClothingOuterHardsuitCBURNLeader
+    shoes: ClothingShoesBootsNedoSpetsnaz
+    id: CBURNPDA
+    pocket1: RadioHandheld
+    pocket2: WeaponAdvancedLaser
+    suitstorage: YellowOxygenTankFilled
+    belt: ClothingBeltBandolierRXBZZ
+  satchel: ClothingBackpackDuffelRXBZZOld
+  duffelbag: ClothingBackpackDuffelRXBZZOld
+
+#Death squad Officer Gear
+- type: startingGear
+  id: DeathSquadOfficerGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitDeathSquad
+    back: ClothingBackpackSpecialForce
+    mask: ClothingMaskGasDeathSquad
+    neck: CombatKnifeSpetsnaz
+    eyes: ClothingEyesGlassesSecurity
+    gloves: ClothingHandsGlovesCombat
+    outerClothing: ClothingOuterHardsuitDeathsquadOfficer
+    suitstorage: OxygenTankFilled
+    shoes: ClothingShoesBootsNedoSpetsnaz
+    id: DedSquadronGavnaIDCard
+    ears: ClothingHeadsetCentComCC
+    belt: WeaponRevolverMatebaNew
+    pocket1: EnergySwordDedSad
+    pocket2: WeaponPulsePistol

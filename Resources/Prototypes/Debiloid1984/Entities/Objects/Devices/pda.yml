@@ -1,0 +1,52 @@
+- type: entity
+  parent: BasePDA
+  id: ComSalvagePDA
+  name: commander salvage PDA
+  description: Just a PDA.
+  components:
+  - type: Pda
+    id: ComSalvageIDCard
+    state: pda-comsalvage
+  - type: PdaBorderColor
+    borderColor: "#774705"
+  - type: Icon
+    sprite: Debiloid1984/Objects/Devices/pda.rsi
+    state: pda-comsalvage
+
+- type: entity
+  parent: BasePDA
+  id: BlueShieldPDA
+  name: captain PDA
+  description: Surprisingly no different from your PDA.
+  components:
+  - type: Pda
+    id: BlueShieldIDCard
+    state: pda-blueshield
+    penSlot:
+      startingItem: PenCap
+      priority: -1
+      whitelist:
+        tags:
+        - Write
+  - type: PdaBorderColor
+    borderColor: "#1E1E32"
+    accentHColor: "#2851A4"
+  - type: Icon
+    sprite: Debiloid1984/Objects/Devices/pda2.rsi
+    state: pda-blueshield
+
+- type: entity
+  parent: BasePDA
+  id: MinerPDA
+  name: miner PDA
+  description: Smells like ash.
+  components:
+  - type: Pda
+    id: MinerIDCard
+    state: pda-miner
+  - type: PdaBorderColor
+    borderColor: "#af9366"
+    accentVColor: "#8900c9"
+  - type: Icon
+    sprite: Debiloid1984/Objects/Devices/pda2.rsi
+    state: pda-miner

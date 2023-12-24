@@ -1,0 +1,21 @@
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: ClothingBeltMiningWebbing
+  name: mining rig
+  description: Universal unloading system for work in space.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/Belt/miningwebbing.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/Belt/miningwebbing.rsi
+
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: ClothingBeltSecurityWebbingBlack
+  name: security webbing
+  description: Unique and versatile chest rig, can hold security gear.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/Belt/securitywebbing.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/Belt/securitywebbing.rsi

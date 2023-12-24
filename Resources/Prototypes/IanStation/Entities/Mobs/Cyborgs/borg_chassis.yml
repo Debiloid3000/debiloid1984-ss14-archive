@@ -1,0 +1,36 @@
+- type: entity
+  id: BorgChassisSB
+  parent: BaseBorgChassisNT
+  components:
+  - type: Sprite
+    sprite: IanStation/Mobs/Silicon/chassis.rsi
+    layers:
+    - state: sb-robot
+    - state: robot_e_r
+      map: ["enum.BorgVisualLayers.Light"]
+      shader: unshaded
+      visible: false
+    - state: robot_l
+      shader: unshaded
+      map: ["light"]
+      visible: false
+  - type: BorgChassis
+    maxModules: 5
+    moduleWhitelist:
+      tags:
+      - BorgModuleSB
+      - BorgModuleGeneric
+    hasMindState: robot_e
+    noMindState: robot_e_r
+  - type: Construction
+    node: security
+  - type: Speech
+    speechVerb: Robotic
+  - type: MovementSpeedModifier
+    baseWalkSpeed : 3.5
+    baseSprintSpeed : 4
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      250: Dead
+  - type: ShowSecurityIcons

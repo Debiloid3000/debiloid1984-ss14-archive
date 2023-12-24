@@ -1,0 +1,23 @@
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtBlueshield
+  name: blueshield officer's jumpskirt
+  description: It's a blue jumpskirt with some gold markings denoting the rank of "Captain".
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/Uniforms/Jumpskirt/blueshield.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/Uniforms/Jumpskirt/blueshield.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtBlueshieldTurtleneck
+  name: blueshield officer's turtleneck jumpskirt
+  description: It's a blue jumpskirt with some gold markings denoting the rank of "Captain".
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/Uniforms/Jumpskirt/blueshield_turtleneck.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/Uniforms/Jumpskirt/blueshield_turtleneck.rsi
+
+

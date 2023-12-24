@@ -1,0 +1,56 @@
+ #module arrest
+
+- type: entity
+  id: StunbatonBorg
+  parent: Stunbaton
+  name: stun baton
+  components:
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 20
+
+- type: entity
+  id: WeaponDisablerBorg
+  parent: WeaponDisabler
+  name: disabler
+  components:
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 20
+
+- type: entity
+  name: experimental hypospray
+  suffix: Admeme
+  parent: SyndiHypo
+  description: The ultimate application of bluespace technology and rapid chemical administration.
+  id: BorgHypoSB
+  components:
+    - type: SolutionContainerManager
+      solutions:
+        hypospray:
+          maxVol: 3000
+          reagents:
+          - ReagentId: Nocturine
+            Quantity: 3000
+    - type: UseDelay
+      delay: 0.0
+
+#combat module
+
+- type: entity
+  id: WeaponLaserCarbineBorg
+  parent: WeaponLaserCarbine
+  name: laser rifle
+  components:
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 40
+
+- type: entity
+  id: WeaponMakeshiftLaserBorg
+  parent: WeaponMakeshiftLaser
+  name: makeshift laser pistol
+  components:
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 40

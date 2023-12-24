@@ -1,0 +1,9 @@
+ent-ClothingHeadHatBlueShieldBeret = beret blueshield
+    .desc = Beret, made especially for officers Nanotrasen.
+    .suffix = { "" }
+ent-ClothingShoesBootsSpetsnazFilled = { ent-ClothingShoesBootsSpetsnaz }
+    .desc = { ent-ClothingShoesBootsSpetsnaz.desc }
+    .suffix = { "" }
+ent-ClothingMaskGasBlueShield = gas mask blueshield
+    .desc = Similar with gas mask SWAT, but blue.
+    .suffix = { "" }

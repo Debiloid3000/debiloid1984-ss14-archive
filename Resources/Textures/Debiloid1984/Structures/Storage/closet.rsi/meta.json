@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from tgstation at commit https://github.com/tgstation/tgstation/commit/c838ba21dae97db345e0113f99596decd1d66039, repainted by Criz#6022 (discord)",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "blueshield_door"
+    },
+    {
+      "name": "blueshield"
+    },
+    {
+      "name": "blueshield_open"
+    },
+    {
+      "name": "comsalvage"
+    },
+    {
+      "name": "comsalvage_door"
+    },
+    {
+      "name": "comsalvage_open"
+    },
+    {
+      "name": "blueshieldold_door"
+    },
+    {
+      "name": "blueshieldold"
+    },
+    {
+      "name": "blueshieldold_open"
+    },
+    {
+      "name": "shaftminer_door"
+    },
+    {
+      "name": "shaftminer"
+    },
+    {
+      "name": "shaftminer_open"
+    },
+    {
+      "name": "locked"
+    },
+    {
+      "name": "unlocked"
+    }
+  ]
+}

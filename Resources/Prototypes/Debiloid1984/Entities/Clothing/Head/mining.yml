@@ -1,0 +1,45 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHelmetMiner
+  name: cult helmet
+  noSpawn: true
+  description: A robust, evil-looking cult helmet.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/Head/Helmets/mining.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/Head/Helmets/mining.rsi
+  - type: IngestionBlocker
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+  - type: Tag
+    tags:
+    - HidesHair
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHelmetMinerSyndie
+  name: cult helmet
+  noSpawn: true
+  description: A robust, evil-looking cult helmet.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/Head/Helmets/mining_red.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/Head/Helmets/mining_red.rsi
+  - type: IngestionBlocker
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+  - type: Tag
+    tags:
+    - HidesHair

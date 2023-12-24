@@ -1,0 +1,17 @@
+- type: entity
+  noSpawn: true
+  parent: BaseTraitorStealObjective
+  id: HosGunStealObjective
+  components:
+  - type: StealCondition
+    prototype: WeaponLaserHos
+    owner: job-name-hos
+
+- type: entity
+  noSpawn: true
+  parent: BaseTraitorStealObjective
+  id: BlueshieldHardsuitStealObjective
+  components:
+  - type: StealCondition
+    prototype: ClothingOuterHardsuitERTBlueShield
+    owner: job-name-blueshield

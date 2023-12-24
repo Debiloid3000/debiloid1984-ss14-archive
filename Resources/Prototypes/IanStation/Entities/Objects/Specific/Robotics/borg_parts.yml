@@ -1,0 +1,96 @@
+# SB parts
+- type: entity
+  id: LeftArmBorgSB
+  parent: BaseBorgArmLeft
+  name: security cyborg left arm
+  components:
+  - type: Sprite
+    sprite: IanStation/Objects/Specific/Robotics/cyborg_parts.rsi 
+    state: borg_l_arm_export
+  - type: Icon
+    state: borg_l_arm_export
+  - type: Tag
+    tags:
+    - Trash
+    - BorgArm
+    - BorgSBLArm
+
+- type: entity
+  id: RightArmBorgSB
+  parent: BaseBorgArmRight
+  name: security cyborg right arm
+  components:
+  - type: Sprite
+    sprite: IanStation/Objects/Specific/Robotics/cyborg_parts.rsi 
+    state: borg_r_arm_export
+  - type: Icon
+    state: borg_r_arm_export
+  - type: Tag
+    tags:
+    - Trash
+    - BorgArm
+    - BorgSBRArm
+
+- type: entity
+  id: LeftLegBorgSB
+  parent: BaseBorgLegLeft
+  name: security cyborg left leg
+  components:
+  - type: Sprite
+    sprite: IanStation/Objects/Specific/Robotics/cyborg_parts.rsi 
+    state: borg_l_leg_export
+  - type: Icon
+    state: borg_l_leg_export
+  - type: Tag
+    tags:
+    - Trash
+    - BorgLeg
+    - BorgSBLLeg
+
+- type: entity
+  id: RightLegBorgSB
+  parent: BaseBorgLegRight
+  name: security cyborg right leg
+  components:
+  - type: Sprite
+    sprite: IanStation/Objects/Specific/Robotics/cyborg_parts.rsi 
+    state: borg_r_leg_export
+  - type: Icon
+    state: borg_r_leg_export
+  - type: Tag
+    tags:
+    - Trash
+    - BorgLeg
+    - BorgSBRLeg
+
+- type: entity
+  id: LightHeadBorgSB
+  parent: BaseBorgHead
+  name: security cyborg head
+  components:
+  - type: Sprite
+    sprite: IanStation/Objects/Specific/Robotics/cyborg_parts.rsi 
+    state: borg_head_export
+  - type: Icon
+    state: borg_head_export
+  - type: Tag
+    tags:
+    - Trash
+    - BorgHead
+    - BorgSBHead
+
+- type: entity
+  id: TorsoBorgSB
+  parent: BaseBorgTorso
+  name: security cyborg torso
+  components:
+  - type: Sprite
+    sprite: IanStation/Objects/Specific/Robotics/cyborg_parts.rsi 
+    state: borg_chest_export
+  - type: Icon
+    state: borg_chest_export
+  - type: Tag
+    tags:
+    - Trash
+    - BorgSBTorso
+
