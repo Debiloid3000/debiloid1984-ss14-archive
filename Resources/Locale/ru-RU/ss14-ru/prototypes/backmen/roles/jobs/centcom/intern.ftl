@@ -1,4 +1,4 @@
 ent-CentcomInternPDABackmen = КПК Ассистента ЦК
     .desc = { ent-CentcomPDABackmen.desc }
-ent-IDCardCentComIntern = Id карта Ассистента ЦК
+ent-IDCardCentComIntern = ID карта ассистента ЦК
     .desc = { ent-CentcomIDCardDeathsquad.desc }

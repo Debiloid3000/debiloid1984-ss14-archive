@@ -4,7 +4,7 @@
   description: job-description-centcomadmiral
   playTimeTracker: JobCentralCommandAdmiral
   setPreference: true
-  startingGear: CentcomAdmiralGear
+  startingGear: AdmiralNTGear
   icon: JobIconNanotrasen
   supervisors: job-supervisors-hoh
   canBeAntag: false
@@ -62,7 +62,7 @@
 - type: entity
   parent: CentcomIDCardDeathsquad
   id: IDCardCentComAdmiral
-  name: Id карта Адмирала ЦК
+  name: admiral CentCom ID card
   components:
     - type: PresetIdCard
       job: BKCCOperator
@@ -70,3 +70,22 @@
       groups:
         - AllAccess
         - CentCom
+
+- type: startingGear
+  id: AdmiralNTGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCentcomFormal
+    back: ClothingBackpackCentComFilled
+    shoes: ClothingShoesBootsJack
+    head: ClothingHeadHatCentcomcap
+    eyes: ClothingEyesGlassesSunglasses
+    gloves: ClothingHandsGlovesCentcomNaval
+    outerClothing: ClothingOuterArmorBasic
+    neck: ClothingNeckCloakCentcomAdmiral
+    id: CCAdmiralPDA
+    ears: ClothingHeadsetAltCentCom
+    pocket1: RubberStampCentcom
+    belt: ClothingBeltSheathFilled
+  innerClothingSkirt: ClothingUniformJumpskirtCentcomFormalDress
+  satchel: ClothingBackpackSatchelCentComFilled
+  duffelbag: ClothingBackpackDuffelCentComFilled

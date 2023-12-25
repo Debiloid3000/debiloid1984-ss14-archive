@@ -34,8 +34,8 @@
 - type: entity
   parent: BasePDA
   id: DeliveryPDA
-  name: КПК доставщика
-  description: Пахнет пиццой
+  name: delivery PDA
+  description: Smells pizza
   components:
     - type: Sprite
       sprite: Backmen/Objects/Devices/pda.rsi

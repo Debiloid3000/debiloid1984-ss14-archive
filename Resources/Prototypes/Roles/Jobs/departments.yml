@@ -6,6 +6,7 @@
   - CargoTechnician
   - Quartermaster
   - SalvageSpecialist
+  - CommanderSalvage # Debiloid1984
   accountNumber: 1315 #backmen: currency
 
 - type: department
@@ -40,6 +41,7 @@
   color: "#334E6D"
   roles:
   - Captain
+  - BlueShield # Debiloid1984
   - IAA # Corvax-IAA
   - ChiefEngineer
   - ChiefMedicalOfficer
@@ -59,6 +61,7 @@
   - ChiefEngineer
   - StationEngineer
   - TechnicalAssistant
+  - SeniorEngineerd # Debiloid1984
   accountNumber: 1318 #backmen: currency
 
 - type: department
@@ -72,6 +75,7 @@
   - MedicalIntern
   - Psychologist
   - Paramedic
+  - SeniorPhysician # Debiloid1984
   accountNumber: 1319 #backmen: currency
 
 - type: department
@@ -84,6 +88,7 @@
   - SecurityOfficer
   - Detective
   - Warden
+  - SeniorOfficer # Debiloid1984
   - Brigmedic #backmen
   - Prisoner #backmen
   accountNumber: 1320  #backmen: currency
@@ -96,6 +101,7 @@
   - ResearchDirector
   - Scientist
   - ResearchAssistant
+  - SeniorResearcher # Debiloid1984
   accountNumber: 1321  #backmen: currency
 
 - type: department

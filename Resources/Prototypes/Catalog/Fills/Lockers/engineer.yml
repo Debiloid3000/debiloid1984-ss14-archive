@@ -92,6 +92,7 @@
       - id: DoorRemoteFirefight
       - id: RCD
       - id: RCDAmmo
+      - id: ClothingHandsGlovesAtmos
 
 - type: entity
   id: LockerAtmosphericsFilled
@@ -109,6 +110,7 @@
       - id: DoorRemoteFirefight
       - id: RCD
       - id: RCDAmmo
+      - id: ClothingHandsGlovesAtmos
 
 - type: entity
   id: LockerEngineerFilledHardsuit

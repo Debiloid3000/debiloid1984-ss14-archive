@@ -1,15 +1,17 @@
 - type: vendingMachineInventory
   id: CentDrobeInventory
   startingInventory:
+    ClothingBackpack: 5
+    ClothingBackpackDuffel: 5
+    ClothingBackpackSatchel: 5
     ClothingShoesBootsLaceup: 3
     ClothingShoesBootsJack: 3
     ClothingHandsGlovesCombat: 3
     ClothingEyesGlassesSunglasses: 3
     ClothingUniformJumpsuitCentcomOfficer: 3
     ClothingUniformJumpsuitCentcomOfficial: 3
-    ClothingUniformJumpsuitCentcomAgent: 3
     ClothingUniformJumpsuitCentcomFormal: 3
-    ClothingUniformJumpsuitCentcomVeryOfficial: 3 # backmen
+    ClothingUniformJumpsuitCentcomVeryOfficial: 3 # backmen 
     ClothingUniformJumpsuitCentcomIntern: 3 # backmen
     ClothingUniformJumpskirttCentcomVeryOfficial: 3 # backmen
     ClothingUniformJumpskirtCentcomFormalDress: 3
@@ -18,6 +20,7 @@
     ClothingMaskGasCentcom: 3
     ClothingHeadsetCentCom: 3
     ClothingOuterWinterCentcom: 3
+    ClothingOuterArmorCentcomCarapace: 3
     ClothingNeckScarfStripedCentcom: 3
     ClothingNeckTieCentCom: 3 # backmen
-
+    

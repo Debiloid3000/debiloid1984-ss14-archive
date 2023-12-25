@@ -5,6 +5,7 @@
   components:
   - type: StorageFill
     contents:
+      - id: GarmentBagQM
       - id: Eftpos # backmen
         amount: 3 # backmen
       - id: ClothingNeckCloakQm
@@ -34,6 +35,7 @@
   components:
   - type: StorageFill
     contents:
+      - id: GarmentBagCaptain
       - id: ClothingOuterArmorCaptainCarapace
       - id: NukeDisk
       - id: PinpointerNuclear
@@ -70,6 +72,7 @@
   components:
   - type: StorageFill
     contents:
+      - id: GarmentBagCaptain
       - id: Eftpos # backmen
         amount: 3 # backmen
       - id: ClothingOuterArmorCaptainCarapace
@@ -111,6 +114,7 @@
   components:
   - type: StorageFill
     contents:
+      - id: GarmentBagHoP
       - id: Eftpos # backmen
         amount: 5 # backmen
       - id: ClothingNeckCloakHop
@@ -146,6 +150,7 @@
   components:
   - type: StorageFill
     contents:
+      - id: GarmentBagCE
       - id: ClothingOuterHardsuitEngineeringWhite
       - id: ClothingMaskBreath
       - id: ClothingUniformJumpsuitChiefEngineerTurtle
@@ -157,7 +162,7 @@
       - id: ClothingBeltChiefEngineerFilled
       - id: ClothingHeadHatBeretEngineering
       - id: ClothingShoesBootsMagAdv
-      - id: ClothingHandsGlovesColorYellow
+      - id: ClothingHandsGlovesCE
       - id: CigarCase
         prob: 0.15
       - id: DoorRemoteEngineering
@@ -178,13 +183,14 @@
   components:
   - type: StorageFill
     contents:
+      - id: GarmentBagCE
       - id: Eftpos # backmen
         amount: 3 # backmen
       - id: ClothingNeckCloakCe
       - id: ClothingEyesGlassesMeson
       - id: ClothingBeltChiefEngineerFilled
       - id: ClothingHeadHatBeretEngineering
-      - id: ClothingHandsGlovesColorYellow
+      - id: ClothingHandsGlovesCE
       - id: ClothingUniformJumpsuitChiefEngineerTurtle
       - id: ClothingUniformJumpskirtChiefEngineerTurtle
       - id: CigarCase
@@ -206,6 +212,7 @@
   components:
   - type: StorageFill
     contents:
+      - id: GarmentBagCMO
       - id: MedkitFilled
       - id: ClothingHandsGlovesNitrile
       #- name: ClothingEyesHudMedical #Removed until working properly
@@ -233,6 +240,7 @@
   components:
   - type: StorageFill
     contents:
+      - id: GarmentBagCMO
       - id: Eftpos # backmen
         amount: 3 # backmen
       - id: MedkitFilled
@@ -261,6 +269,7 @@
   components:
   - type: StorageFill
     contents:
+      - id: GarmentBagRD
       - id: ResearchComputerCircuitboard
       - id: ProtolatheMachineCircuitboard
       - id: CircuitImprinterMachineCircuitboard
@@ -288,6 +297,7 @@
   components:
   - type: StorageFill
     contents:
+      - id: GarmentBagRD
       - id: Eftpos # backmen
         amount: 3 # backmen
       - id: ResearchComputerCircuitboard
@@ -316,6 +326,7 @@
   components:
   - type: StorageFill
     contents:
+      - id: GarmentBagHoS
       - id: ClothingEyesHudSecurity
       - id: WeaponDisabler
       - id: ClothingHeadHatBeretHoS
@@ -351,6 +362,7 @@
       - id: BookBusido # Corvax-Books
       - id: AntiPsychicKnife # backmen
       - id: ClothingHeadCage # backmen
+      - id: WeaponLaserHos
 
 - type: entity
   id: LockerHeadOfSecurityFilled
@@ -359,6 +371,7 @@
   components:
   - type: StorageFill
     contents:
+      - id: GarmentBagHoS
       - id: ClothingEyesHudSecurity
       - id: WeaponDisabler
       - id: ClothingHeadHatBeretHoS
@@ -398,6 +411,7 @@
       - id: BookSecretDocuments
       - id: AntiPsychicKnife # backmen
       - id: ClothingHeadCage # backmen
+      - id: WeaponLaserHos
 
 - type: entity
   id: LockerFreezerVaultFilled
