@@ -1,7 +1,7 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "Taken from SS13 Paradise SS220",
+  "copyright": "Made by PuroSlavKing (github) for SS14",
   "size": {
     "x": 32,
     "y": 32
@@ -11,7 +11,7 @@
       "name": "icon"
     },
     {
-      "name": "equipped-MASK",
+      "name": "equipped-OUTERCLOTHING",
       "directions": 4
     },
     {
