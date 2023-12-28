@@ -452,3 +452,84 @@
         Heat: 0.50
         Radiation: 0.50
         Caustic: 0.70
+
+
+#Content from SS13
+
+#Old helmet hardsuit security
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: ClothingHeadHelmetHardsuitSecurityOld
+  name: head of security's hardsuit helmet
+  description: Security hardsuit helmet with the latest top secret NT-HUD software. Belongs to the HoS.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/Head/Hardsuits/security2.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/Head/Hardsuits/security2.rsi
+  - type: PointLight
+    color: "#ffeead"
+  - type: PressureProtection
+    highPressureMultiplier: 0.45
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+  - type: FlashImmunity
+
+#Security Hardsuit
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: ClothingHeadHelmetHardsuitSecurity2
+  name: security hardsuit helmet
+  description: Armored hardsuit helmet for security needs.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/Head/Hardsuits/security.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/Head/Hardsuits/security.rsi
+  - type: PointLight
+    color: "#FF0000"
+  - type: PressureProtection
+    highPressureMultiplier: 0.525
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+  - type: FlashImmunity
+
+#Warden's Hardsuit
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: ClothingHeadHelmetHardsuitWarden2
+  name: warden's hardsuit helmet
+  description: A modified riot helmet. Oddly comfortable.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/Head/Hardsuits/security-warden.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/Head/Hardsuits/security-warden.rsi
+  - type: PointLight
+    color: "#ffeead"
+  - type: PressureProtection
+    highPressureMultiplier: 0.525
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+  - type: FlashImmunity
