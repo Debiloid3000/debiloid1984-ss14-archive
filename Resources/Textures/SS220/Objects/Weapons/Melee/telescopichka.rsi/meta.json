@@ -8,10 +8,10 @@
   },
   "states": [
     {
-      "name": "telescope_on"
+      "name": "telescopic_on"
     },
     {
-      "name": "telescope_off"
+      "name": "telescopic_off"
     },
 	{
       "name": "off-inhand-left",
