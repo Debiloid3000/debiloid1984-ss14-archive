@@ -10,8 +10,8 @@
     layers:
     - state: telescopic_off
       map: [ "enum.ToggleVisuals.Layer" ]
-  - type: Policebaton
-    telescopic: true
+  - type: Stunbaton
+    energyPerUse: 100
   - type: UseDelay
     delay: 0.75
   - type: MeleeWeapon
@@ -23,10 +23,13 @@
     animation: WeaponArcSlash
   - type: StaminaDamageOnHit
     damage: 35
+  - type: Battery
+    maxCharge: 10000
+    startingCharge: 10000
   - type: ItemCooldown
   - type: Item
     heldPrefix: off
-    size: Small
+    size: 10
   - type: Clothing
     sprite: SS220/Objects/Weapons/Melee/telescopichka.rsi
     quickEquip: false
@@ -43,4 +46,5 @@
           False: {state: telescopic_off}
   - type: StaticPrice
     price: 100
+
 
