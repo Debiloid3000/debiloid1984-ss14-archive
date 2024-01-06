@@ -148,17 +148,17 @@
       - state: icon
   - type: SpawnItemsOnUse
     items:
-      - id: SyndicateNowHardsuit
+      - id: ClothingOuterHardsuitSyndie
         orGroup: GiftPool
-      - id: SyndicateNewHardsuit
+      - id: ClothingOuterHardsuitSyndieNew
         orGroup: GiftPool
-      - id: EliteSyndicateNowHardsuit
+      - id: ClothingOuterHardsuitSyndieElite
         orGroup: GiftPool
-      - id: EliteSyndicateNewHardsuit
+      - id: ClothingOuterHardsuitSyndieEliteNew
         orGroup: GiftPool
-      - id: SyndicateEliteHardsuitBackmen
+      - id: ClothingOuterHardsuitSyndieEliteBackmen
         orGroup: GiftPool
-      - id: SyndicateHardsuitBackmen
+      - id: ClothingOuterHardsuitSyndieBackmen
         orGroup: GiftPool
 
 - type: entity
@@ -175,11 +175,11 @@
       - state: icon
   - type: SpawnItemsOnUse
     items:
-      - id: ComSyndicateNowHardsuit
+      - id: ClothingOuterHardsuitSyndieCommander
         orGroup: GiftPool
-      - id: ComSyndicateOldHardsuit
+      - id: ClothingOuterHardsuitSyndieCommanderOld
         orGroup: GiftPool
-      - id: SyndicateCommanderHardsuitBackmen
+      - id: ClothingOuterHardsuitSyndieCommanderBackmen
         orGroup: GiftPool
 
 - type: entity
@@ -196,11 +196,11 @@
       - state: icon
   - type: SpawnItemsOnUse
     items:
-      - id: SyndicateMedicHardsuit
+      - id: ClothingOuterHardsuitMedic
         orGroup: GiftPool
-      - id: EliteSyndicateNowHardsuit
+      - id: ClothingOuterHardsuitSyndieElite
         orGroup: GiftPool
-      - id: EliteSyndicateNewHardsuit
+      - id: ClothingOuterHardsuitSyndieEliteNew
         orGroup: GiftPool
-      - id: SyndicateEliteHardsuitBackmen
+      - id: ClothingOuterHardsuitSyndieEliteBackmen
         orGroup: GiftPool

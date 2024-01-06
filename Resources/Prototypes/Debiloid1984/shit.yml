@@ -1,54 +1,4 @@
 - type: entity
-  parent: SyndiHardSuitBriefcase
-  id: SyndicateEliteHardsuitBackmen
-  name: case with hardsuit
-  description: Syndicate hardsuit
-  components:
-  - type: StorageFill
-    contents:
-      - id: ClothingOuterHardsuitSyndieEliteBackmen
-
-- type: entity
-  parent: SyndiHardSuitBriefcase
-  id: SyndicateCommanderHardsuitBackmen
-  name: case with hardsuit
-  description: Syndicate hardsuit
-  components:
-  - type: StorageFill
-    contents:
-      - id: ClothingOuterHardsuitSyndieCommanderBackmen
-
-- type: entity
-  parent: SyndiHardSuitBriefcase
-  id: SyndicateHardsuitBackmen
-  name: case with hardsuit
-  description: Syndicate hardsuit
-  components:
-  - type: StorageFill
-    contents:
-      - id: ClothingOuterHardsuitSyndieBackmen
-
-- type: entity
-  parent: SyndiHardSuitBriefcase
-  id: SyndicateHardsuitJuggernautBackmen
-  name: case with hardsuit
-  description: Syndicate hardsuit
-  components:
-  - type: StorageFill
-    contents:
-      - id: ClothingOuterHardsuitJuggernautBackmen
-
-- type: entity
-  parent: SyndiHardSuitBriefcase
-  id: SyndicateHardsuitJuggernaut
-  name: case with hardsuit
-  description: Syndicate hardsuit
-  components:
-  - type: StorageFill
-    contents:
-      - id: ClothingOuterHardsuitJuggernaut
-
-- type: entity
   parent: PresentRandom
   id: SyndiHardsuitJuggernaut
   name: syndi hardsuit briefcase
@@ -62,9 +12,9 @@
       - state: icon
   - type: SpawnItemsOnUse
     items:
-      - id: SyndicateHardsuitJuggernaut
+      - id: ClothingOuterHardsuitJuggernaut
         orGroup: GiftPool
-      - id: SyndicateHardsuitJuggernautBackmen
+      - id: ClothingOuterHardsuitJuggernautBackmen
         orGroup: GiftPool
 
 - type: entity
