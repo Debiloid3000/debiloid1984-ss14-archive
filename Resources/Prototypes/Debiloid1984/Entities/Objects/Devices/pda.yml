@@ -4,8 +4,9 @@
   name: commander salvage PDA
   description: Just a PDA.
   components:
-  - type: Pda
+  - type: Sprite
     sprite: Debiloid1984/Objects/Devices/pda.rsi
+  - type: Pda
     id: ComSalvageIDCard
     state: pda-comsalvage
   - type: PdaBorderColor
@@ -20,8 +21,9 @@
   name: captain PDA
   description: Surprisingly no different from your PDA.
   components:
-  - type: Pda
+  - type: Sprite
     sprite: Debiloid1984/Objects/Devices/pda.rsi
+  - type: Pda
     id: BlueShieldIDCard
     state: pda-blueshield
     penSlot:
