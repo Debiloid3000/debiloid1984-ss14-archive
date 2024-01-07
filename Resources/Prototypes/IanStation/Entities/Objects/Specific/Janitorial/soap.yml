@@ -7,7 +7,7 @@
    - type: Sprite
      sprite: Debiloid1984/Objects/Specific/Janitorial/soap.rsi
      layers:
-     - state: lambda-4
+     - state: lambda
        map: ["enum.SolutionContainerLayers.Fill"]
    - type: SolutionContainerVisuals
      fillBaseName: lambda-
