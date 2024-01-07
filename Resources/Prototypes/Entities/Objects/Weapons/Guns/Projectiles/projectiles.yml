@@ -890,9 +890,6 @@
         mask:
         - Opaque
       fly-by: *flybyfixture
-  - type: Reflective
-    reflective:
-    - Energy
 
 - type: entity
   name: emitter bolt
