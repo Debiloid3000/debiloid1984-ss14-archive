@@ -54,6 +54,9 @@
     },
     {
       "name": "generic_open"
+    },
+    {
+      "name": "generic_door"
     }
   ]
 }
