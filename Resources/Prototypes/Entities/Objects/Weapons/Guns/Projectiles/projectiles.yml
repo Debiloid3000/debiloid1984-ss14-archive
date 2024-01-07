@@ -890,6 +890,9 @@
         mask:
         - Opaque
       fly-by: *flybyfixture
+  - type: Reflective
+    reflective:
+    - Energy
 
 - type: entity
   name: emitter bolt
@@ -906,4 +909,3 @@
     damage:
       types:
         Heat: 22
-    energy: 0.5
