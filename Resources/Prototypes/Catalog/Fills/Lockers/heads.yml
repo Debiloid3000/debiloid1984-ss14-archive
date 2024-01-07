@@ -74,7 +74,6 @@
     contents:
       - id: GarmentBagCaptain
       - id: Eftpos # backmen
-        amount: 3 # backmen
       - id: ClothingOuterArmorCaptainCarapace
       - id: NukeDisk
       - id: PinpointerNuclear
@@ -116,7 +115,6 @@
     contents:
       - id: GarmentBagHoP
       - id: Eftpos # backmen
-        amount: 5 # backmen
       - id: ClothingNeckCloakHop
       - id: ClothingHeadHatHopcap
       - id: HoPIDCard
@@ -185,7 +183,6 @@
     contents:
       - id: GarmentBagCE
       - id: Eftpos # backmen
-        amount: 3 # backmen
       - id: ClothingNeckCloakCe
       - id: ClothingEyesGlassesMeson
       - id: ClothingBeltChiefEngineerFilled
@@ -242,7 +239,6 @@
     contents:
       - id: GarmentBagCMO
       - id: Eftpos # backmen
-        amount: 3 # backmen
       - id: MedkitFilled
       - id: ClothingHandsGlovesNitrile
       #- name: ClothingEyesHudMedical #Removed until working properly
@@ -299,7 +295,6 @@
     contents:
       - id: GarmentBagRD
       - id: Eftpos # backmen
-        amount: 3 # backmen
       - id: ResearchComputerCircuitboard
       - id: ProtolatheMachineCircuitboard
       - id: CircuitImprinterMachineCircuitboard
@@ -328,7 +323,6 @@
     contents:
       - id: GarmentBagHoS
       - id: ClothingEyesHudSecurity
-      - id: WeaponDisabler
       - id: ClothingHeadHatBeretHoS
       - id: ClothingHeadHatCapHoS # Corvax-SecFashion
         prob: 0.5
@@ -373,7 +367,6 @@
     contents:
       - id: GarmentBagHoS
       - id: ClothingEyesHudSecurity
-      - id: WeaponDisabler
       - id: ClothingHeadHatBeretHoS
       - id: ClothingHeadHatCapHoS # Corvax-SecFashion
         prob: 0.5
