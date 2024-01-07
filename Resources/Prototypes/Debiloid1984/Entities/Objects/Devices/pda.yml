@@ -5,12 +5,13 @@
   description: Just a PDA.
   components:
   - type: Pda
+    sprite: Debiloid1984/Objects/Devices/pda.rsi
     id: ComSalvageIDCard
     state: pda-comsalvage
   - type: PdaBorderColor
     borderColor: "#774705"
   - type: Icon
-    sprite: Debiloid1984/Objects/Devices/pda.rsi
+    sprite: Debiloid1984/Objects/Devices/pda2.rsi
     state: pda-comsalvage
 
 - type: entity
@@ -20,6 +21,7 @@
   description: Surprisingly no different from your PDA.
   components:
   - type: Pda
+    sprite: Debiloid1984/Objects/Devices/pda.rsi
     id: BlueShieldIDCard
     state: pda-blueshield
     penSlot:
@@ -32,7 +34,7 @@
     borderColor: "#1E1E32"
     accentHColor: "#2851A4"
   - type: Icon
-    sprite: Debiloid1984/Objects/Devices/pda2.rsi
+    sprite: Debiloid1984/Objects/Devices/pda.rsi
     state: pda-blueshield
 
 - type: entity
