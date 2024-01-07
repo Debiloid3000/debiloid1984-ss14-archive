@@ -10,7 +10,7 @@
      - state: lambda
        map: ["enum.SolutionContainerLayers.Fill"]
    - type: SolutionContainerVisuals
-     fillBaseName: lambda-
+     fillBaseName: lambda
    - type: Slippery
      paralyzeTime: 60
      launchForwardsMultiplier: 1
