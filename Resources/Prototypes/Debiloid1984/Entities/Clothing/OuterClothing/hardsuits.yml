@@ -104,6 +104,8 @@
   components:
   - type: Sprite
     sprite: Debiloid1984/Clothing/OuterClothing/Hardsuits/newsyndicate.rsi
+  - type: Item
+    size: Huge
   - type: Clothing
     sprite: Debiloid1984/Clothing/OuterClothing/Hardsuits/newsyndicate.rsi
   - type: PressureProtection
