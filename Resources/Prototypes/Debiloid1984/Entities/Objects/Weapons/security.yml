@@ -29,7 +29,7 @@
   - type: ItemCooldown
   - type: Item
     heldPrefix: off
-    size: 10
+    size: Small
   - type: Clothing
     sprite: SS220/Objects/Weapons/Melee/telescopichka.rsi
     quickEquip: false

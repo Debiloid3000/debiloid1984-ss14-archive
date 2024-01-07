@@ -92,7 +92,7 @@
   id: CBURNLeaderGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitSpetsnaz
-    back: ClothingBackpackDuffelRXBZZOld
+    back: ClothingBackpackDuffelRXBZZ
     mask: ClothingMaskGasExplorer
     neck: CombatKnifeSpetsnaz
     eyes: ClothingEyesGlassesSecurity
@@ -105,8 +105,8 @@
     pocket2: WeaponAdvancedLaser
     suitstorage: YellowOxygenTankFilled
     belt: ClothingBeltBandolierRXBZZ
-  satchel: ClothingBackpackDuffelRXBZZOld
-  duffelbag: ClothingBackpackDuffelRXBZZOld
+  satchel: ClothingBackpackDuffelRXBZZ
+  duffelbag: ClothingBackpackDuffelRXBZZ
 
 #Death squad Officer Gear
 - type: startingGear
