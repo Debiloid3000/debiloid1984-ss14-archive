@@ -5,6 +5,7 @@
   description: Более скользкое и опасное мыло, смотрите не подскальзнитесь.
   components:
    - type: Sprite
+     sprite: Debiloid1984/Objects/Specific/Janitorial/soap.rsi
      layers:
      - state: lambda-4
        map: ["enum.SolutionContainerLayers.Fill"]
