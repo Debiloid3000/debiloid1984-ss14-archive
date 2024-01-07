@@ -12,7 +12,7 @@
   - type: PdaBorderColor
     borderColor: "#774705"
   - type: Icon
-    sprite: Debiloid1984/Objects/Devices/pda2.rsi
+    sprite: Debiloid1984/Objects/Devices/pda.rsi
     state: pda-comsalvage
 
 - type: entity
