@@ -36,6 +36,7 @@
       - id: PinpointerNuclear
       - id: CaptainIDCard
       - id: WeaponDisabler
+      - id: ClothingOuterHardsuitCap
       - id: CommsComputerCircuitboard
       - id: ClothingHeadsetAltCommand
       - id: SpaceCash1000
@@ -66,6 +67,7 @@
       - id: PinpointerNuclear
       - id: CaptainIDCard
       - id: WeaponDisabler
+      - id: ClothingOuterHardsuitCap
       - id: CommsComputerCircuitboard
       - id: ClothingHeadsetAltCommand
       - id: SpaceCash1000
