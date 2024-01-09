@@ -47,4 +47,53 @@
   - type: StaticPrice
     price: 100
 
+- type: entity
+  name: contractor baton
+  parent: BaseItem
+  id: ContractorBaton
+  description: The structure is similar to a telescopic baton, the characteristics hit better.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Objects/Weapons/Melee/contractor_baton.rsi
+    netsync: false
+    layers:
+    - state: icon
+      map: [ "enum.ToggleVisuals.Layer" ]
+  - type: Stunbaton
+    energyPerUse: 100
+  - type: UseDelay
+    delay: 0.75
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 15
+    bluntStaminaDamageFactor: 2.0
+    angle: 60
+    animation: WeaponArcSlash
+  - type: StaminaDamageOnHit
+    damage: 35
+  - type: Battery
+    maxCharge: 10000
+    startingCharge: 10000
+  - type: ItemCooldown
+  - type: Item
+    heldPrefix: off
+    size: Small
+  - type: Clothing
+    sprite: Debiloid1984/Objects/Weapons/Melee/contractor_baton.rsi
+    quickEquip: false
+    slots:
+      - Belt
+  - type: DisarmMalus
+    malus: 0.225
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+      enum.ToggleVisuals.Toggled:
+        enum.ToggleVisuals.Layer:
+          True: {state: icon_on}
+          False: {state: icon}
+  - type: StaticPrice
+    price: 1000
+
 
