@@ -8,8 +8,8 @@
   suffix: ERTRole, Death Squad
   components:
     - type: Sprite
-      sprite: Clothing/OuterClothing/Hardsuits/deathsquad.rsi
-      state: icon
+      sprite: Debiloid1984/Markers/jobs.rsi
+      state: deathsquad
     - type: RandomMetadata
       nameSegments:
         - NamesFirstMilitaryLeader
