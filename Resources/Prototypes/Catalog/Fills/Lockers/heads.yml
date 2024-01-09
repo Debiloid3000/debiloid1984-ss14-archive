@@ -13,6 +13,7 @@
       - id: CargoRequestComputerCircuitboard
       - id: CargoShuttleComputerCircuitboard
       - id: CargoShuttleConsoleCircuitboard
+      - id: ClothingOuterHardsuitQM
       - id: SalvageShuttleConsoleCircuitboard
       - id: CargoBountyComputerCircuitboard
       - id: CigPackGreen
