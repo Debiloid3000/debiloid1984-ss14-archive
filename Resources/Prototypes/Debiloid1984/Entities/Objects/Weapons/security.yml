@@ -11,7 +11,7 @@
     - state: telescopic_off
       map: [ "enum.ToggleVisuals.Layer" ]
   - type: Stunbaton
-    energyPerUse: 100
+    energyPerUse: 0
   - type: UseDelay
     delay: 0.75
   - type: MeleeWeapon
@@ -60,7 +60,7 @@
     - state: icon
       map: [ "enum.ToggleVisuals.Layer" ]
   - type: Stunbaton
-    energyPerUse: 100
+    energyPerUse: 0
   - type: UseDelay
     delay: 0.75
   - type: MeleeWeapon
@@ -96,4 +96,51 @@
   - type: StaticPrice
     price: 1000
 
-
+- type: entity
+  name: contractor baton
+  parent: BaseItem
+  id: ContractorBatonDamage
+  description: Contractor baton, but only without stunning. Aimed at harming the victim.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Objects/Weapons/Melee/contractor_baton.rsi
+    netsync: false
+    layers:
+    - state: icon
+      map: [ "enum.ToggleVisuals.Layer" ]
+  - type: Stunbaton
+    energyPerUse: 0
+  - type: UseDelay
+    delay: 0.75
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 35
+    bluntStaminaDamageFactor: 2.0
+    angle: 60
+    animation: WeaponArcSlash
+  - type: StaminaDamageOnHit
+    damage: 0
+  - type: Battery
+    maxCharge: 10000
+    startingCharge: 10000
+  - type: ItemCooldown
+  - type: Item
+    heldPrefix: off
+    size: Small
+  - type: Clothing
+    sprite: Debiloid1984/Objects/Weapons/Melee/contractor_baton.rsi
+    quickEquip: false
+    slots:
+      - Belt
+  - type: DisarmMalus
+    malus: 0.225
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+      enum.ToggleVisuals.Toggled:
+        enum.ToggleVisuals.Layer:
+          True: {state: icon_on}
+          False: {state: icon}
+  - type: StaticPrice
+    price: 1000
