@@ -15,3 +15,12 @@
   components:
   - type: Sprite
     sprite: Debiloid1984/Clothing/Back/Backpacks/blueshield.rsi
+
+- type: entity
+  parent: ClothingBackpack
+  id: ClothingBackpackCentСom
+  name: central command backpack
+  description: This is a special backpack designed exclusively for representatives of the Central Command.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/Back/Backpacks/centcom.rsi

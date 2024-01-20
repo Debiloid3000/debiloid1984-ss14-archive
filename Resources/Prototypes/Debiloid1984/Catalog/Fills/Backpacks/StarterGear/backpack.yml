@@ -13,7 +13,7 @@
 
 - type: entity
   noSpawn: true
-  parent: ClothingBackpack
+  parent: ClothingBackpackCentCom
   id: ClothingBackpackCentComFilled
   components:
   - type: StorageFill
