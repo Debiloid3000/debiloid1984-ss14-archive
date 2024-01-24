@@ -18,7 +18,7 @@
 
 - type: entity
   parent: ClothingBackpackSatchel
-  id: ClothingBackpackSatchelCentcom
+  id: ClothingBackpackSatchelCentCom
   name: central command satchel
   description: An exclusive satchel for CentCom officers.
   components:
