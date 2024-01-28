@@ -32,7 +32,7 @@
       department: Command
       time: 468000  # 130 hours
   startingGear: ConsultantGear
-  icon: "JobIconConsultant"
+  icon: "JobIconNanotrasen"
   requireAdminNotify: true
   joinNotifyCrew: true
   supervisors: job-supervisors-centcom
