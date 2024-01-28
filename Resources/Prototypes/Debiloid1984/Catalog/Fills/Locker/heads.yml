@@ -30,7 +30,7 @@
     contents:
       - id: GarmentBagCentcomConsultant
       - id: ClothingHeadsetAltCentCom
-      - id: HandheldIntercomMonitor
+      #- id: HandheldIntercomMonitor
       - id: RubberStampCentcom
       - id: Handcuffs
       - id: WeaponRevolverMateba
@@ -50,7 +50,7 @@
       - id: ClothingMaskGasCentcom
       - id: GarmentBagCentcomConsultant
       - id: ClothingHeadsetAltCentCom
-      - id: HandheldIntercomMonitor
+      #- id: HandheldIntercomMonitor
       - id: RubberStampCentcom
       - id: Handcuffs
       - id: WeaponRevolverMateba
