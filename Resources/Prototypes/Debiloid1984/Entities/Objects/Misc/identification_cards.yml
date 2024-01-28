@@ -38,3 +38,14 @@
     - state: idsalvage
   - type: PresetIdCard
     job: Miner
+
+- type: entity
+  parent: IDCardStandard
+  id: CentcomConsultantIDCard
+  name: CentCom consultant ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: centcom
+  - type: PresetIdCard
+    job: CentComConsultant

@@ -39,3 +39,5 @@ ent-ClothingShoesBootsSpetsnazFilled = { ent-ClothingShoesBootsSpetsnaz }
 ent-ClothingMaskGasBlueShield = противогаз синего щита
     .desc = Схож с противогазом спецназа, но лишь синий.
     .suffix = { "" }
+ent-ClothingHandsTacticalBlueShield = тактические перчатки офицера синего щита
+    .desc = Ничем не отличаются от боевых, разве что более потертые и....синие.

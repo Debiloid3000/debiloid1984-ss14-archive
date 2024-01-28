@@ -10,7 +10,7 @@
       - id: MedkitCombatFilled
       - id: Handcuffs
       - id: Flash
-      - id: ClothingBeltSecurityWebbing
+      - id: ClothingBeltBlueShieldWebbing
       - id: ClothingShoesBootsSpetsnazFilled
       - id: ClothingUniformJumpsuitBlueShield
       - id: ClothingUniformJumpskirtBlueshield
@@ -20,4 +20,42 @@
       - id: ClothingOuterWinterBS
       - id: ClothingNeckMantleBS
       - id: GarmentBagBlueShield
+
+- type: entity
+  id: LockerCentcomConsultantFilled
+  suffix: Filled
+  parent: LockerCentcomConsultant
+  components:
+  - type: StorageFill
+    contents:
+      - id: GarmentBagCentcomConsultant
+      - id: ClothingHeadsetAltCentCom
+      - id: HandheldIntercomMonitor
+      - id: RubberStampCentcomConsultant
+      - id: Handcuffs
+      - id: WeaponRevolverMateba
+      - id: SpeedLoaderMagnum
+      - id: SpeedLoaderMagnumRubber
+      - id: CigarGoldCase
+        prob: 0.25
+
+- type: entity
+  id: LockerCentcomConsultantFilledHardsuit
+  suffix: Filled, Hardsuit
+  parent: LockerCentcomConsultant
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingOuterHardsuitCentcomCarporate
+      - id: ClothingMaskGasCentcom
+      - id: GarmentBagCentcomConsultant
+      - id: ClothingHeadsetAltCentCom
+      - id: HandheldIntercomMonitor
+      - id: RubberStampCentcomConsultant
+      - id: Handcuffs
+      - id: WeaponRevolverMateba
+      - id: SpeedLoaderMagnum
+      - id: SpeedLoaderMagnumRubber
+      - id: CigarGoldCase
+        prob: 0.25
 

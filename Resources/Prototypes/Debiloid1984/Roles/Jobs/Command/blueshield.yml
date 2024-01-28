@@ -47,6 +47,8 @@
   - !type:AddComponentSpecial
     components:
       - type: CommandStaff
+      - type: SpecForce
+        actionBssActionName: ActionCentcomFtlAction
 
 - type: startingGear
   id: BlueShieldGear
@@ -55,11 +57,12 @@
     back: ClothingBackpackBlueShieldFilled
     shoes: ClothingShoesBootsSpetsnazFilled
     eyes: ClothingEyesGlassesSunglassesBlueShield
-    gloves: ClothingHandsGlovesCombat
+    gloves: ClothingHandsTacticalBlueShield
     head: ClothingHeadHatBlueShieldBeret
     outerClothing: ClothingOuterArmorBlueshield
     id: BlueShieldPDA
     ears: ClothingHeadsetAltBlueShield
+    belt: ClothingBeltSecuritySuper
     pocket1: HandheldCrewMonitor
     pocket2: WeaponPistolG22
   innerClothingSkirt: ClothingUniformJumpskirtBlueshield

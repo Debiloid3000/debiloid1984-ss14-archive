@@ -85,3 +85,25 @@
     sprite: Debiloid1984/Clothing/Uniforms/jumpsuit/mining.rsi
   - type: Clothing
     sprite: Debiloid1984/Clothing/Uniforms/jumpsuit/mining.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitCentcomConsultant
+  name: CentCom consultant jumpsuit
+  description: "A green jumpsuit with gold accents, and wide shoulder pads, for those who like to show off their real power."
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/Uniforms/jumpsuit/centcom_consultant.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/Uniforms/jumpsuit/centcom_consultant.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitCentcomConsultantFormal
+  name: CentCom consultant's formal jumpsuit
+  description: "The formal jumpsuit of the most important representative on the station. It clearly suits you, sir."
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/Uniforms/jumpsuit/centcom_consultant_formal.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/Uniforms/jumpsuit/centcom_consultant_formal.rsi

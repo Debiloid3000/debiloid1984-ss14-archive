@@ -19,3 +19,14 @@
     sprite: Debiloid1984/Clothing/Belt/securitywebbing.rsi
   - type: Clothing
     sprite: Debiloid1984/Clothing/Belt/securitywebbing.rsi
+
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: ClothingBeltBlueShieldWebbing
+  name: blueshield webbing
+  description: Unique and versatile chest rig, can hold security gear.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/Belt/blueshieldwebbing.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/Belt/blueshieldwebbing.rsi

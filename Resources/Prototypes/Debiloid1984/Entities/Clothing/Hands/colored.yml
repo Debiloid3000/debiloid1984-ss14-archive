@@ -51,3 +51,14 @@
     fiberMaterial: fibers-insulative
     fiberColor: fibers-brown
   - type: FingerprintMask
+
+- type: entity
+  parent: ClothingHandsGlovesCombat
+  id: ClothingHandsTacticalBlueShield
+  name: tactical maid gloves
+  description: Tactical maid gloves, every self-respecting maid should be able to discreetly eliminate her goals.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/Hands/Gloves/blueshield.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/Hands/Gloves/blueshield.rsi

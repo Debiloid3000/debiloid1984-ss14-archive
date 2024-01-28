@@ -29,3 +29,36 @@
     stateDoorClosed: comsalvage_door
   - type: AccessReader
     access: [["Quartermaster"]]
+
+#CentCom
+- type: entity
+  id: LockerCentcom
+  parent: LockerBase
+  name: CentCom locker
+  description: An expensive version of the regular Nanotrasen storage locker.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Structures/Storage/closet.rsi
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: cc
+    stateDoorOpen: cc_open
+    stateDoorClosed: cc_door
+  - type: AccessReader
+    access: [["CentralCommand"]]
+
+- type: entity
+  id: LockerCentcomConsultant
+  parent: LockerBase
+  name: CentCom consultant's locker
+  description: An expensive version of the regular Nanotrasen storage locker.
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Structures/Storage/closet.rsi
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: ccc
+    stateDoorOpen: ccc_open
+    stateDoorClosed: ccc_door
+  - type: AccessReader
+    access: [["CentralCommand"]]

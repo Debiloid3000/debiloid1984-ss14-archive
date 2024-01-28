@@ -74,6 +74,19 @@
       - state: green
       - state: seniorengineer
 
+- type: entity
+  id: SpawnPointCentcomConsultant
+  parent: SpawnPointJobBase
+  name: Central Command Consultant
+  components:
+  - type: SpawnPoint
+    job_id: CentComConsultant
+  - type: Sprite
+    sprite: Debiloid1984/Markers/jobs.rsi
+    layers:
+      - state: green
+      - state: consultant
+
 #- type: entity
 #  id: SpawnPointMiner
 #  parent: SpawnPointJobBase

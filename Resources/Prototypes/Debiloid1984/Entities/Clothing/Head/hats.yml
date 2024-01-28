@@ -30,3 +30,14 @@
     - HamsterWearable
     - WhitelistChameleon
 
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatCentcomConsultantCap
+  name: Centcom сonsultant сap
+  description: "An expensive cap, with a bright gold emblem on your forehead, saying that you are the inspector of order at this station."
+  components:
+  - type: Sprite
+    sprite: Debiloid1984/Clothing/Head/Hats/centcom_consultant.rsi
+  - type: Clothing
+    sprite: Debiloid1984/Clothing/Head/Hats/centcom_consultant.rsi
+
