@@ -27,9 +27,9 @@
   description: "A green jumpskirt with gold accents, and wide shoulder pads, for those who like to show off their real power."
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpskirt/centcom_consultant.rsi
+    sprite: Debiloid1984/Clothing/Uniforms/Jumpskirt/centcom_consultant.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpskirt/centcom_consultant.rsi
+    sprite: Debiloid1984/Clothing/Uniforms/Jumpskirt/centcom_consultant.rsi
 
 - type: entity
   parent: ClothingUniformSkirtBase
@@ -38,6 +38,6 @@
   description: "The formal jumpskirt of the most important representative on the station. It clearly suits you, sir."
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpskirt/centcom_consultant_formal.rsi
+    sprite: Debiloid1984/Clothing/Uniforms/Jumpskirt/centcom_consultant_formal.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpskirt/centcom_consultant_formal.rsi
+    sprite: Debiloid1984/Clothing/Uniforms/Jumpskirt/centcom_consultant_formal.rsi
