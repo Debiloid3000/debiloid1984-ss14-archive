@@ -39,38 +39,12 @@
   canBeAntag: false
   whitelistRequired: true
   access:
-  - EmergencyShuttleRepealAll
-  - Captain
-  - HeadOfPersonnel
-  - ChiefEngineer
-  - ChiefMedicalOfficer
-  - HeadOfSecurity
-  - ResearchDirector
-  - Command
-  - Security
-  - Detective
-  - Armory
-  - Brig
-  - Lawyer
-  - Engineering
-  - Medical
-  - Quartermaster
-  - Miner
-  - Salvage
-  - Cargo
-  - Research
-  - Service
-  - Maintenance
-  - External
-  - Janitor
-  - Theatre
-  - Bar
-  - Chemistry
-  - Kitchen
-  - Chapel
-  - Hydroponics
-  - Atmospherics
-  - CentralCommand
+    - CCCargo
+    - CCSecurity
+    - CCGeneral
+    - CCOfficer
+  accessGroups:
+    - AllAccess
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
@@ -90,7 +64,7 @@
   id: ConsultantGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitCentcomConsultant
-    back: ClothingBackpackCentcomFilled
+    back: ClothingBackpackCentComFilled
     shoes: ClothingShoesBootsLaceup
     eyes: ClothingEyesGlassesSunglasses
     gloves: ClothingHandsGlovesLatex
@@ -99,5 +73,5 @@
     belt: BoxFolderClipboard
     pocket1: WeaponDisabler
   innerClothingSkirt: ClothingUniformJumpskirtCentcomConsultant
-  satchel: ClothingBackpackSatchelCentcomFilled
-  duffelbag: ClothingBackpackDuffelCentcomFilled
+  satchel: ClothingBackpackSatchelCentComFilled
+  duffelbag: ClothingBackpackDuffelCentComFilled
