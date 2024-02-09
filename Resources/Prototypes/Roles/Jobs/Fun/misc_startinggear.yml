@@ -1,6 +1,6 @@
 #Misc outfit startingGear definitions.
 
-#Skeleton Biker
+#Skeleton Biker - Just a skeleton now
 - type: startingGear
   id: SkeletonBiker
   equipment:
@@ -13,8 +13,6 @@
     shoes: ClothingShoesBootsJack
     id: PassengerPDA
     ears: ClothingHeadsetGrey
-    pocket1: VehicleSkeletonMotorcycle
-    pocket2: VehicleKeySkeletonMotorcycle
   innerClothingSkirt: ClothingUniformJumpskirtColorBlack
   satchel: ClothingBackpackSatchelFilled
   duffelbag: ClothingBackpackDuffelFilled
@@ -37,7 +35,7 @@
     pocket1: SpiderCharge
     pocket2: PinpointerStation
     belt: EnergyKatana
-    suitstorage: YellowOxygenTankFilled
+    suitstorage: OxygenTankFilled
   inhand:
     - JetpackBlackFilled
 
@@ -67,7 +65,6 @@
     head: ClothingHeadHatOutlawHat
     jumpsuit: ClothingUniformJumpsuitOperative
     mask: CigaretteSyndicate
-    id: AgentIDCard
   innerClothingSkirt: ClothingUniformJumpsuitOperative
 
 # Syndicate Operative Outfit - Barratry
@@ -78,7 +75,6 @@
     back: ClothingBackpackDuffelSyndicateOperative
     shoes: ClothingShoesBootsCombatFilled
     gloves: ClothingHandsGlovesColorBlack
-    id: AgentIDCard
   innerClothingSkirt: ClothingUniformJumpsuitOperative
   satchel: ClothingBackpackDuffelSyndicateOperative
   duffelbag: ClothingBackpackDuffelSyndicateOperative
@@ -93,7 +89,7 @@
     gloves: ClothingHandsGlovesCombat
     shoes: ClothingShoesBootsCombatFilled
     pocket1: BaseUplinkRadio40TC
-    id: AgentIDCard
+    id: SyndiPDA
   innerClothingSkirt: ClothingUniformJumpsuitOperative
   satchel: ClothingBackpackDuffelSyndicateOperative
   duffelbag: ClothingBackpackDuffelSyndicateOperative
@@ -108,13 +104,12 @@
     eyes: ClothingEyesHudSyndicate
     ears: ClothingHeadsetAltSyndicate
     gloves: ClothingHandsGlovesCombat
+    outerClothing: ClothingOuterHardsuitSyndie
     shoes: ClothingShoesBootsCombatFilled
-    id: NukieAgentIDCard
+    id: SyndiPDA
     pocket1: DoubleEmergencyOxygenTankFilled
     pocket2: BaseUplinkRadio40TC
     belt: ClothingBeltMilitaryWebbing
-  inhand:
-    - SyndiHardsuitNormal
   innerClothingSkirt: ClothingUniformJumpskirtOperative
   satchel: ClothingBackpackDuffelSyndicateOperative
   duffelbag: ClothingBackpackDuffelSyndicateOperative
@@ -129,14 +124,14 @@
     eyes: ClothingEyesHudSyndicate
     ears: ClothingHeadsetAltSyndicate
     gloves: ClothingHandsGlovesCombat
+    outerClothing: ClothingOuterHardsuitSyndieCommander
     shoes: ClothingShoesBootsCombatFilled
-    id: NukieAgentIDCard
+    id: SyndiPDA
     pocket1: DoubleEmergencyOxygenTankFilled
     pocket2: BaseUplinkRadio40TC
     belt: ClothingBeltMilitaryWebbing
   inhand:
     - NukeOpsDeclarationOfWar
-    - SyndiHardsuitCom
   innerClothingSkirt: ClothingUniformJumpskirtOperative
   satchel: ClothingBackpackDuffelSyndicateOperative
   duffelbag: ClothingBackpackDuffelSyndicateOperative
@@ -151,13 +146,12 @@
     eyes: ClothingEyesHudSyndicate
     ears: ClothingHeadsetAltSyndicate
     gloves: ClothingHandsGlovesCombat
+    outerClothing: ClothingOuterHardsuitSyndieMedic
     shoes: ClothingShoesBootsMagSyndie
-    id: NukieAgentIDCard
+    id: SyndiAgentPDA
     pocket1: DoubleEmergencyOxygenTankFilled
     pocket2: BaseUplinkRadio40TC
     belt: ClothingBeltMilitaryWebbingMedFilled
-  inhand:
-    - SyndiHardsuitMedic
   innerClothingSkirt: ClothingUniformJumpskirtOperative
   satchel: ClothingBackpackDuffelSyndicateOperativeMedic
   duffelbag: ClothingBackpackDuffelSyndicateOperativeMedic
@@ -266,7 +260,7 @@
     id: CBURNPDA
     pocket1: RadioHandheld
     pocket2: WeaponLaserGun
-    suitstorage: YellowOxygenTankFilled
+    suitstorage: OxygenTankFilled
     belt: ClothingBeltBandolier
   innerClothingSkirt: ClothingUniformJumpsuitColorBrown
   satchel: ClothingBackpackDuffelCBURNFilled
@@ -310,7 +304,7 @@
 #Brigmedic
 
 - type: startingGear
-  id: BrigmedicGearOld
+  id: BrigmedicGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitBrigmedic
     outerClothing: ClothingOuterCoatAMG
@@ -326,6 +320,12 @@
   innerClothingSkirt: ClothingUniformJumpskirtBrigmedic
   satchel: ClothingBackpackSatchelBrigmedicFilled
   duffelbag: ClothingBackpackDuffelBrigmedicFilled
+
+# Aghost
+- type: startingGear
+  id: MobAghostGear
+  equipment:
+    back: ClothingBackpackSatchelHoldingAdmin
 
 #Head Rev Gear
 - type: startingGear
