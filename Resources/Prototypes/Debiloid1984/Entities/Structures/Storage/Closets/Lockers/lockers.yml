@@ -45,7 +45,7 @@
     stateDoorOpen: cc_open
     stateDoorClosed: cc_door
   - type: AccessReader
-    access: [["CentralCommand"]]
+    access: [["CCGeneral"]]
 
 - type: entity
   id: LockerCentcomConsultant
@@ -61,4 +61,4 @@
     stateDoorOpen: ccc_open
     stateDoorClosed: ccc_door
   - type: AccessReader
-    access: [["CentralCommand"]]
+    access: [["CCGeneral"]]
