@@ -685,7 +685,7 @@
     job: AtmosphericTechnician
 
 - type: entity
-  parent: IDCardStandard
+  parent: AgentIDCard
   id: SyndicateIDCard
   name: syndicate ID card
   components:
@@ -694,8 +694,9 @@
     - state: syndie
   - type: Access
     tags:
-    - NuclearOperative
+    - Maintenance
     - SyndicateAgent
+    - NuclearOperative
 
 - type: entity
   parent: IDCardStandard
