@@ -25,7 +25,7 @@
   <Box>
     <GuideEntityEmbed Entity="AppraisalTool"/>
     <GuideEntityEmbed Entity="CargoPallet"/>
-  </Box
+  </Box>
   Найдя что-то стоящее, поместите это на одну из грузовых паллет шаттла. В следующий раз, когда шаттл будет отправлен на торговый пост, предмет будет продан, а деньги напрямую перечислены на банковский счет станции. Вы также можете заработать еще больше денег, выполняя задания [textlink="bounties" link="CargoBounties"] или продавая ценные предметы из [textlink="salvage" link="Salvage"].
 
-</Document
+</Document>
