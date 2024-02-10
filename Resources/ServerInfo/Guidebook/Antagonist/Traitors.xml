@@ -56,7 +56,7 @@
   </Box>
   - Украдите у главврача [color=#a4885c]Гипоспрей[/color].
   <Box>
-    <GuideEntityEmbed Entity="Гипоспрей" Caption="Гипоспрей главврача" />
+    <GuideEntityEmbed Entity="Hypospray" Caption="Гипоспрей главврача" />
   </Box>
   - Украдите костюм [color=#a4885c]директора по исследованиям[/color].
   <Box>
